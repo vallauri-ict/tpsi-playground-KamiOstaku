@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,9 +21,9 @@ namespace Forza4_Console
         }
         public static int posizionaGettone(char[,] carlo, char giocatoreCorrente, int colums)
         {
-            int i = carlo.GetLength(1) - 1;
+            int i = carlo.GetLength(0) - 1;
 
-            while (carlo[i, colums] == '-')//Ho gia verificato che il gettone poss essere piazzato
+            while (carlo[i, colums] != '-')//Ho gia verificato che il gettone poss essere piazzato
             {
                 i--;
             }
@@ -52,9 +53,94 @@ namespace Forza4_Console
         public static bool WinCheck(char[,] carlo, int rows, int colums, char giocatoreCorrente)
         {
             bool vittoria = false;
-            int cnt;
+            int cnt = 0,i = rows,j=colums;
 
-            while(i<carlo.GetLength(0))
+            while(rows<carlo.GetLength(0) && carlo[rows,colums] == giocatoreCorrente)
+            {
+                cnt++;
+                rows++;
+            }
+
+            if (cnt >= 4)
+            {
+                vittoria = true;
+            }
+            else
+            {
+                rows = i - 1;
+                colums = j - 1;
+
+                while (colums < carlo.GetLength(1) && carlo[rows, colums] == giocatoreCorrente)
+                {
+                    cnt++;
+                    colums++;
+                }
+                rows = i - 1;
+                colums = j - 1;
+                while (colums >= 0 && carlo[i, j] == giocatoreCorrente)
+                {
+                    cnt++;
+                    colums--;
+                }
+
+                if (cnt >= 4)
+                {
+                    vittoria = true;
+                }
+                else
+                {
+                    cnt = 0;
+                    rows = i - 1;
+                    colums = j - 1;
+
+                    while (colums < carlo.GetLength(1) && rows < carlo.GetLength(0) && giocatoreCorrente == carlo[rows, colums])
+                    {
+                        rows++;
+                        colums++;
+                        cnt++;
+                    }
+                    colums = j - 1;
+                    rows = i - 1;
+                    while (j >= 0 && i >= 0)
+                    {
+                        i--;
+                        j--;
+                        cnt++;
+                    }
+                }
+                if (cnt >= 4)
+                {
+                    vittoria = true;
+                }
+                else
+                {
+                    cnt = 0;
+                    rows = i - 1;
+                    colums = j - 1;
+
+                    while (rows < carlo.GetLength(0) && colums >= 0 && giocatoreCorrente == carlo[rows, colums])
+                    {
+                        rows++;
+                        colums--;
+                        cnt++;
+                    }
+                    colums = j - 1;
+                    rows = i - 1;
+                    while (j < carlo.GetLength(1) && i >= 0 && carlo[rows, colums] == giocatoreCorrente)
+                    {
+                        rows--;
+                        colums++;
+                        cnt++;
+                    }
+
+                    if (cnt >= 4)
+                    {
+                        vittoria = true;
+                    }
+                }
+            }
+
+            return vittoria;
 
 
 
