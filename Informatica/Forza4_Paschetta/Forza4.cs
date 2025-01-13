@@ -54,6 +54,9 @@ namespace Forza4_Console
             bool vittoria = false;
             int cnt;
 
+            while(i<carlo.GetLength(0))
+
+
 
 
 
