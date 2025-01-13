@@ -24,7 +24,7 @@ fork in git = Una copia di una repository nella quale il nuovo proprietario si s
 
 https://www.youtube.com/watch?v=HkdAHXoRtos = da rivedere le sezioni riguardo a merge,fork,mailing address e pull requests
 
-Git is hard
+Basta voglio ritarmi su una montagna e essere felice
 
 ------------------
 
