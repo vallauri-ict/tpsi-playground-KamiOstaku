@@ -1,0 +1,7 @@
+C:\Users\nikol\source\repos\Controllo prima e seconda riga matrice\bin\Debug\Controllo prima e seconda riga matrice.exe.config
+C:\Users\nikol\source\repos\Controllo prima e seconda riga matrice\bin\Debug\Controllo prima e seconda riga matrice.exe
+C:\Users\nikol\source\repos\Controllo prima e seconda riga matrice\bin\Debug\Controllo prima e seconda riga matrice.pdb
+C:\Users\nikol\source\repos\Controllo prima e seconda riga matrice\obj\Debug\Controllo prima e seconda riga matrice.csproj.AssemblyReference.cache
+C:\Users\nikol\source\repos\Controllo prima e seconda riga matrice\obj\Debug\Controllo prima e seconda riga matrice.csproj.CoreCompileInputs.cache
+C:\Users\nikol\source\repos\Controllo prima e seconda riga matrice\obj\Debug\Controllo prima e seconda riga matrice.exe
+C:\Users\nikol\source\repos\Controllo prima e seconda riga matrice\obj\Debug\Controllo prima e seconda riga matrice.pdb

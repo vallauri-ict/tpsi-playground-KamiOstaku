@@ -1,0 +1,7 @@
+C:\Users\nikol\source\repos\Es 37 e 38 pagina 85\obj\Debug\Es 37 e 38 pagina 85.csproj.AssemblyReference.cache
+C:\Users\nikol\source\repos\Es 37 e 38 pagina 85\obj\Debug\Es 37 e 38 pagina 85.csproj.CoreCompileInputs.cache
+C:\Users\nikol\source\repos\Es 37 e 38 pagina 85\bin\Debug\Es 37 e 38 pagina 85.exe.config
+C:\Users\nikol\source\repos\Es 37 e 38 pagina 85\bin\Debug\Es 37 e 38 pagina 85.exe
+C:\Users\nikol\source\repos\Es 37 e 38 pagina 85\bin\Debug\Es 37 e 38 pagina 85.pdb
+C:\Users\nikol\source\repos\Es 37 e 38 pagina 85\obj\Debug\Es 37 e 38 pagina 85.exe
+C:\Users\nikol\source\repos\Es 37 e 38 pagina 85\obj\Debug\Es 37 e 38 pagina 85.pdb
