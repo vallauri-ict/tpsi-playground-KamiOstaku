@@ -1,0 +1,67 @@
+h1{
+   text-align: center; 
+}
+
+p{
+    padding: 12px;
+    margin: 15px;
+}
+
+p#id1{
+    color: #f00;
+}
+
+.paragrafo{
+    color: #080;
+}
+
+p{
+    color: blue;
+    /*color: blue !important;*/ 
+}
+
+#wrapper p{
+    background-color: #9f9;
+}
+#wrapper >p:nth-of-type(3){
+    background-color: #aaa;
+}
+
+#wrapper > p{
+    background-color: #ff9;;
+}
+
+#wrapper > div{
+    width: 200px;
+    height: 200px;
+    margin: 15px auto;
+    padding: 20px;
+    border: 1px solid #aaa;
+}
+ /* Prima soluzione per allineare il testo al centro della box*/
+#wrapper > div:nth-of-type(1) > p {
+    height: 200px;
+    margin: 0px;
+    padding: 0px; 
+    text-align: center;
+    /* Vertical align vale solo per i tag inline*/
+    vertical-align: middle;
+    line-height: 200px;
+   
+} 
+/* Seconda soluzione per allineare il testo al centro della box*/
+#wrapper > div:nth-of-type(2)>p {
+    margin: 0px;
+    padding: 0px; 
+    text-align: center;
+    padding-top:90px;
+    padding-bottom: 90px;
+   
+} 
+section article{
+    color: #f00;
+    
+}
+article{
+    color: #0f0;
+}

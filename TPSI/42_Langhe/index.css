@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+body, html, #wrapper{
+    height: 100%;
+}
+body{
+    background-image: url(./img/bg.gif);
+    background-repeat: repeat-y;
+    background-color: #cacaca;
+    background-position: center;
+}
+#wrapper{
+    margin: 0px auto;
+    width: 780px;
+    background-color: #b1ffff;
+}
+#navbar{
+    margin: 0px 60px;
+}
+#navbar li{
+    margin: 20px 0px;
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    background-color: #ccc;
+    border: 1px solid #bbb;
+    border-bottom-width: 3px;
+    color: #118;
+    list-style: none;
+
+}
+#navbar a {
+    text-decoration: none;
+    
+}
+#navbar li:hover {
+    cursor: pointer;
+    border-bottom-color: #4ce ;
+    color: #4ce;
+
+}
+#titolo{
+    width: 80%;
+    height: 250px;
+    margin: 25px 0px;
+    background-image: url(./img/1_langhe.jpg);
+    background-position: center;
+    color: #fff;
+    margin: 0px auto;
+}
+#titolo > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+}
+#titolo > h2{
+    font-size: 19pt;
+}

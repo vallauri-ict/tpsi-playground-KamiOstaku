@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin:0;	
+	box-sizing:content-box;
+}
+
+h1{
+	text-align:center;
+	margin:25px;
+}
+
+html, body, #wrapper{
+	height:100%
+}
+
+/* ****************************************************************** */
+
+#wrapper{
+	width:800px;
+	height:1300px;
+	margin: 20px auto;
+	border: 1px solid black;
+	background-color:#eee;	
+	overflow:hidden;
+	resize:both;  /* rende l'elemento ridimensionabile */
+}
+
+#wrapper div{      
+   /* width :auto, cioè pari alla larghezza del contenitore */
+   /* height:auto, cioè pari all'altezza del testo interno  */
+   margin:6px;
+   font-size: 30pt;
+   font-weight:bold;
+   background-color:#bfb;
+   border:1px solid #666;
+}
+
+#wrapper div:nth-of-type(even){
+	height:150px;
+}
+
+
+/* ******************************************************************* */
+

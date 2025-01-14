@@ -1,0 +1,84 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+#wrapper
+{
+    max-width: 760px;
+    margin: 10px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 7px #ff8080;
+    border-style: double; 
+}
+
+#titolo
+{
+    height: 100px;
+    font-size: 24pt;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(37, 150, 190);
+    color: rgb(213,131,38,255);
+}
+
+#immagine
+{
+    background-image:url("Penguins.jpg");
+    height: 569px;
+    background-repeat: no-repeat;
+
+}
+
+#immagine h1, #immagine h2
+{
+    width: 350px;
+    padding-top: 12px;
+    text-align: right;
+}
+
+#wrapper div:nth-of-type(2) h1
+{
+    font-size: 18pt;
+    color: rgb(213,131,38,255);
+}
+
+#wrapper div:nth-of-type(2) h2
+{
+    font-size: 16pt;
+    color: #454545;
+}
+
+#menu p 
+{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#voci
+{
+    width: 200px;
+    height: 200px;
+    margin: 15px auto;
+    text-align: left;
+    font-size: 12pt;
+    overflow: auto;;
+}
+
+#voci div
+{
+    margin: 12px;
+    margin-top: 9px;
+    background-color: #355;
+    border: 1px solid #a7a7a7;
+}
+
+a
+{
+    cursor: pointer;
+    color: rgb(213,131,38,255);
+}

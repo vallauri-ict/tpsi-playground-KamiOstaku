@@ -1,0 +1,41 @@
+*{
+	padding:0;
+	margin:0;	
+	box-sizing:content-box;
+}
+
+h1{
+	text-align:center;
+	margin:30px;
+}
+ 
+div{
+	font-size:14pt;
+	padding:10px;
+	margin:20px 0px;
+	border:1px solid #ccc;
+}
+
+div:nth-of-type(1){
+	/* no width, cioè 100%  */	
+}
+
+div:nth-of-type(2){
+	/*  width fissa   */
+	width:900px;
+	margin:20px auto;
+}
+
+div:nth-of-type(3){
+	/*  width percentuale */
+	width:50%;
+	margin-left:25%;
+}
+
+div:nth-of-type(4){
+	/*  max-width  */
+	max-width:900px;
+	margin:20px auto;
+}
+
+

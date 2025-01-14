@@ -1,0 +1,81 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:25px;
+}
+
+
+/* ******************* pendolo  **************** */
+body > div:nth-of-type(1){
+	width: 20px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #aaa;
+	animation: animazionePendolo 2s linear infinite;
+	/* spostiamo il baricentro in alto */
+	transform-origin: center top;
+}
+@keyframes animazionePendolo{
+	0%{transform: rotateZ(0deg); }
+	25%{transform: rotateZ(20deg);}
+	50%{transform: rotateZ(0deg);}
+	75%{transform: rotateZ(-20deg);}
+	100%{transform: rotateZ(0deg);}
+}
+
+
+/* ******************* barra avanzamento **************** */
+body > div:nth-of-type(2){
+	width: 300px;
+	height: 15px;
+	margin: 50px auto;
+	border: 1px solid #aaa;
+}
+body > div:nth-of-type(2) > div{
+	background-color: #0a0;
+	width: 0px;
+	height: inherit;
+	animation: animazioneBarra 2s linear infinite;
+}
+@keyframes animazioneBarra {
+	0%{width: 0px;}
+	100%{width: 300px;}
+	
+}
+
+
+/* ******************* palla che rimbalza **************** */
+
+body > div:nth-of-type(4){
+	height: 10px;
+	background-color: #090;
+	width: 100%;
+	transform: translateY(300px);
+}
+body> div:nth-of-type(3){
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: red;
+	margin-left: 200px;
+	position: relative;
+	animation: animazionePalla 10s 1;
+}
+@keyframes animazionePalla {
+	0%{top:0px;animation-timing-function: ease-in; color: red;}
+	10%{top:300px;animation-timing-function: ease-out; color: #600;}
+	20%{top:60px;animation-timing-function: ease-in; color: red;}
+	30%{top:300px;animation-timing-function: ease-out; color: #600;}
+	40%{top:120px;animation-timing-function: ease-in; color: red;}
+	50%{top:300px;animation-timing-function: ease-out; color: #600;}
+	60%{top:180px;animation-timing-function: ease-in; color: red;}
+	70%{top:300px;animation-timing-function: ease-out; color: #600;}
+	80%{top:240px;animation-timing-function: ease-in; color: red;}
+	90%{top:300px;animation-timing-function: ease-out; color: #600;}
+	100%{top:300px;animation-timing-function: ease-in; color: red;}
+	
+}

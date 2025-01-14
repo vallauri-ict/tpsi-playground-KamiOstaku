@@ -1,0 +1,84 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:25px;
+}
+body{
+	background-color: black;
+	color: white;
+}
+
+#wrapper1 div, #wrapper2 div{
+	width: 160px;
+	height: 60px;
+	padding: 10px;
+	margin: 20px;
+	border: 2px solid #fff;
+}
+#wrapper1 div:nth-of-type(1){
+	height: 160px;
+	border-radius: 50%;	
+}
+#wrapper1 div:nth-of-type(2){
+	/* 1° valore curvatura asse x 
+	   2° valore curavura asse y*/
+	border-radius: 40px/10px; 
+}
+#wrapper1 div:nth-of-type(3){
+	/* 1° valore curvatura dello spigolo in alto a sinistra 
+	e cosi via in senso orario*/
+	border-radius: 10px 40px 10px 40px ;
+}
+
+/* ******** OMBRE ************** */ 
+#wrapper2 div:nth-of-type(1){
+	/* luce arriva dallo spigolo in altro a sinistra +ù
+	   il primo valore è l'ombra sul lato destro
+	   il secondo valore è l'ombra sul latro inferiore
+	   il terzo valore è il colore edll'ombra */
+	box-shadow: 6px 3px #aaa;	
+}
+#wrapper2 div:nth-of-type(2){
+	box-shadow: -6px 3px #aaa;	
+}
+#wrapper2 div:nth-of-type(3){
+	/* terzo parametro è facoltativon ed indica il raggio di sfumatura*/
+	box-shadow: 6px 3px 6px #aaa;	
+}
+#wrapper2 div:nth-of-type(4){
+	/* Inset l'oggetto sembra incassato e l'ombra è all'interno */
+	box-shadow:inset 6px 3px 6px #aaa;	
+}
+#wrapper2 div:nth-of-type(5){
+	box-shadow:4px 2px 2px #0f0 , 
+	8px 4px 4px #fff, 
+	12px 6px 6px #f00,
+	-4px -2px 2px #0f0 , 
+	-8px -4px 4px #fff, 
+	-12px -6px 6px #f00;	
+}
+#wrapper2 div:nth-of-type(6){
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	line-height: 60px;
+	text-shadow: 2px 2px 3px #aaa;
+	/* resize both e overflow auto rendono l'oggetto ridimensionabile*/
+	resize: both;
+	overflow: auto;
+}
+button{
+	padding: 10px 40px;
+	margin: 15px;
+	box-shadow: 4px 3px 2px #aaa;
+
+}
+button:active{
+	background-color: #fff;
+	box-shadow:inset 4px 3px 2px #aaa;
+	cursor: pointer; 
+}

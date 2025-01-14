@@ -1,0 +1,37 @@
+p{
+    color: #f00;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+div{
+    width: 400px;
+    height: 100px;
+    border: 1px #777 solid;
+    background-color: #ccc;
+    margin: 10px;
+}
+div.secondoDiv{
+    height: 150px;
+    margin-left: 600px;
+    border: 1px #f00 solid;
+    font-size: 15pt ;
+}
+#quartoDiv{
+    font-size: 10pt;
+    font-style: italic;
+    color: #008;
+    text-align:center;
+    padding: 10px;
+    margin:20px auto;
+    height: 160px;
+    
+}
+#quartoDiv h1{
+    color: #f00;
+    text-decoration: underline;
+}
+.classeGenerica{
+    color: #f0f;
+}

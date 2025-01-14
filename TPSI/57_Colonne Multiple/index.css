@@ -1,0 +1,46 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:15px;
+}
+
+html, body, #wrapper{
+	  height:100%;   
+}
+
+
+/* ******************************************************************* */
+
+body{
+	background-color:#ccc;
+}
+
+#wrapper{
+	width:750px;
+	margin:0 auto;
+	background-color:white;
+	padding:20px;
+	
+	/* in genere o si usa count oppure si usa width          */
+	/* NON E' POSSIBILE CREARE COLONNE CON LARGHEZZA DIVERSE */
+	column-width:350px;
+	/*  se si applicano tutte 2 vince column-width           */
+	/* column-count:3;                                       */
+	column-gap:40px;
+	column-rule:1px solid #ddd;
+}
+
+#wrapper h1{
+	column-span:all;
+}
+
+
+#wrapper h2{
+	margin-top:16px;
+	margin-bottom:8px;
+}
+

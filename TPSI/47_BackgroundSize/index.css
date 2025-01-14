@@ -1,0 +1,48 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;	
+}
+
+h1{
+	text-align:center;
+	margin:30px;
+}
+body{
+	background-color: black;
+	color: white;
+}
+html, body, #wrapper{
+	height:100%
+}
+div, img{
+	margin: 25px;
+	padding: 15px 20px;
+	border: 1px solid black;
+	background-color: #ccc;
+
+}
+img{
+	width: 360px;
+}
+div{
+	width: 360px;
+	height: 160px;
+	background-image: url(./img/Tulips.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div:nth-of-type(2){
+	background-size: contain;
+}
+div:nth-of-type(3){
+	background-size: cover;
+}
+div:nth-of-type(4){
+	background-size: 80%;
+}
+div:nth-of-type(5){
+	background-size: 80%;
+	/* fa si che il padding non venga piu sommato ma scalato all'interno dell'oggetto*/
+	box-sizing: border-box;
+}

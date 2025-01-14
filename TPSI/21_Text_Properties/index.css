@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+div.class1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    width: 500px;
+    height: 450px;
+    border: 1px solid blue;
+    border-width: 3px;
+    border-color:rgb(5, 224, 5);
+    border-style: dashed;
+    border-left-width: 5px; 
+    border-left-style: solid;
+    border-top:  4px dotted #777;
+    background-color: #ffa;
+    margin-left: 100px;
+    margin-top: 100px ;
+    margin: 50px 200px;
+    margin: 100px 0px  0px 100px ;
+    margin: 80px auto;
+    padding: 16px 8px;
+
+}
+.grassetto{
+    font-weight: bold;
+}
+.italico{
+    font-style: italic;
+}
+.sottolineato{
+    text-decoration: underline;
+}
+.class1 p{
+    color: #666;
+    text-align: justify;
+    line-height: 24pt;
+    word-spacing: 6px;
+    letter-spacing: -1px;
+}

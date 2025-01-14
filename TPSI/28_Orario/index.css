@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(./bg.gif);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-color: rgb(234, 234, 234) ;
+}
+#wrapper{
+    margin: 30px auto;
+    width: 760px;
+
+}
+h1{
+    text-align: center;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 30pt;
+    word-spacing: -2px;
+    letter-spacing: -2px;
+}
+#table{
+    margin: 20px 0;
+    width: 760px;
+    border: 5px solid #050;
+    font-size: 12pt;
+    user-select: none;
+    border-spacing: 0px;
+}
+#table > th{
+    height: 30px;
+    border: 1px solid #000;
+    font-size: 15pt;
+    font-weight: bold;
+}
+#table > td{
+    height: 30px;
+    border: 1px solid #666; 
+    vertical-align: middle; 
+    text-align: center;
+    letter-spacing: -1px;
+}
+.info{
+    background-color: #0f0;
+}
+.tpsi{
+    background-color: 	#00FFFF;
+}
+.inglese{
+    background-color: orangered;
+}
+.sistemi{
+    background-color: lightcoral;
+}
+.mate{
+    background-color: plum;
+}
+.italiano{
+    background-color: 	#007FFF;
+}
+.religio{
+    background-color: #555;
+}
+.tele{
+    background-color: #ccc;
+}
+.storia{
+    background-color: #ff8;
+}
+.ginna{
+    background-color: #0f0;
+}
+td:not(.ora):hover{
+    background-color: #00f;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}

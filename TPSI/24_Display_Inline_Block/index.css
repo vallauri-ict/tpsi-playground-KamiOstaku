@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+#wrapper{
+    width: 350px;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* Wrapper ha solo figli diretti perciò non cambia nulla tra la > e lo spazio*/
+#wrapper>input, #wrapper label{
+    display: inline-block;
+    width: 150px;
+    margin: 5px; 
+    /*vertical-align: top; valore di default*/
+}
+#wrapper> label{
+    text-align: right;
+    margin-right: 6px;
+}
+#wrapper >input{
+    height: 22px;
+}

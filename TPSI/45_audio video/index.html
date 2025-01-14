@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audio e Video</title>
+  </head>
+  <body style="background-color:#000 ;">
+    
+    <h1 style="text-align:center">Audio e Video</h1>
+    
+    <audio controls autoplay muted loop style="width:380px">
+         <source src="data/The_river.mp3" type="audio/mpeg">
+         <source src="data/song.mp3" type="audio/mpeg">
+         <source src="data/song.ogg" type="application/ogg">
+    </audio>           
+    <br><br><br>
+
+	<video controls autoplay muted loop style="width:600px">
+		<!-- il formato .wmv NON è supportato da nessun browser (troppo pesante) -->/
+		<source src="data/movie.wmv" type="video/x-ms-wmv">  
+		<source src="data/movie.mp4" type="video/mp4">   
+        <source src="data/movie.ogg" type="application/ogg">
+		<source src="http://www.youtube.com/embed/4Ya74nPXBoU">
+	</video>   
+	<br><br><br> 
+	 
+	 
+	<!-- oggetti interpreati da player esterni -->
+	<object data="data/pagina pdf di prova.pdf" type="application/pdf" width="400" height="300"> </object>
+    
+  </body>
+</html>

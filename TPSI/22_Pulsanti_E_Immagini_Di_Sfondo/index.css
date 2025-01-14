@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+.pulsante{
+    display: inline-block;
+    border: 1px solid #555;
+    border-left-width: 5px;
+    width: 100px;
+    text-align: center;
+    padding: 6px;
+    margin: 4px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-bottom-width: 3px;
+    background-color: #ccc;
+    color: #666;
+}
+
+.pulsante:hover{
+    text-decoration: underline;
+    background-color: #666;
+    color: #ccc;
+    cursor:pointer;
+}/* la pseudoclasse focus 
+viene assegnata quando 
+l'oggetto riceve il focus*/ 
+
+.pulsante:focus{ 
+    text-decoration: none;
+    background-color: #00f;
+    color: #fff;
+}
+
+.pulsante:nth-of-type(1){
+    margin-top: 70px ;
+
+}
+
+.pulsante:nth-of-type(5){
+    margin-top: 70px;
+    background-image: url(./img/foto.png);
+    color:#fff;
+}
+
+.pulsante:nth-of-type(5):hover{
+    color: #ff0;
+    
+    
+}
+
+div{
+    height: 200px;
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid black;
+    background-image: url(./img/foto.png);
+}
+div:nth-of-type(2), div:nth-of-type(3){
+    background-image: url(./img/Img.jpg);
+    width: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover ;
+}
+div:nth-of-type(3){
+    background-size: contain;
+}

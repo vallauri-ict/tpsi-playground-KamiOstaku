@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.container{
+    width: 400px;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px auto;
+    overflow: auto;
+
+}

@@ -1,0 +1,104 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+#wrapper 
+{
+    width: 380px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #eee;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+h2
+{
+    text-align: center;
+    padding-bottom: 40px;
+    font-style: italic;
+    text-shadow: 1px 1px;
+}
+
+#comandi
+{
+    float: left;
+    width: 130px;;
+}
+
+#comandi button
+{
+    width: 100px;
+    height: 40px;
+    background-color: #afa;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #888;
+}
+
+#stati
+{
+    float: right;
+    width: 180px;
+    background-color: #ffa;
+    border-radius: 15px;
+    border: solid 1px #aaa;
+    padding: 16px;
+    margin-top: -15px;
+}
+
+#stati .gemma div:nth-of-type(odd)
+{
+    width: 110px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    margin: 7px 0px;
+}
+
+#stati .gemma div:nth-of-type(even)
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #aaa;
+    box-shadow: 3px 3px #111;
+    display: inline-block;
+    line-height: 35px;
+    vertical-align: middle;
+    margin: 7px 0px;
+}
+
+#stati .led
+{
+    width: 90px;
+    height: 42px;
+    background-color: #111;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    padding: 5px;
+}
+
+#stati .led div
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 2px;
+    background-color: #aaa;
+    display: inline-block;
+}
+
+#stati .cntCicli
+{
+    font-size: 20pt;
+    font-weight: bold;
+    float: right;
+    margin-top: 25px;
+    margin-right: 15px;
+}

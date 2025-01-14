@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="it">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css" />
+    <title>Esercizio 41</title>
+</head>
+<body>
+<h1>Pagina di Registrazione </h1>
+
+<form action="benvenuto.html" target="_blank" >
+
+	<div class="user-box">
+		<input type="text" name="txtUser" id="txtUser" required>
+		<label>User:</label>
+	</div>
+
+	<div class="user-box">
+		<input type="text" name="txtPwd" id="txtPwd" required>
+		<label>Password:</label>
+	</div>
+	
+	<fieldset>
+		<legend> Informazioni personali </legend>	
+		
+		<label for="txtCodFisc"> Codice Fiscale: </label>
+		<input type="text" class="control" name="txtCodFisc" id="txtCodFisc" 
+		required minlength="16" maxlength="16" 
+		pattern="^[A-Z]{6}[0-9]{2}[A-Z][0-9]{2}[A-Z][0-9]{3}[A-Z]$"
+		title="Formato Codice Fiscale valido: CCCCCCNNCNNCNNNC">
+		<!-- title vale solo in abbinamento all'attributo pattern -->
+
+		<label for="txtColor"> Colore Preferito: </label>
+		<input type="color" class="control" name="txtColor" id="txtColor">
+
+
+		<label for="txtDate"> Data di Nascita: </label>
+		<input type="date" class="control" name="txtDate" id="txtDate" required
+			   min="2000-01-01" max="2010-12-31" autocomplete="on"> 
+
+		
+		<!-- Autocomplete: Le option compaiono come aiuti d inserimento -->
+		<label for="txtResiden"> Residenza: </label>
+		<input type="text" class="control" name="txtResidenza" id="txtResidenza"
+		required list="listaR">
+		<datalist id="listaR">
+			<option>Fossano</option>
+			<option>Firenze</option>
+			<option>Cuneo</option>
+			<option>Cremona</option>
+			<option>Barletta</option>
+			<option>Brescia</option>
+		</datalist>
+
+		
+		<label for="txtMail"> Mail: </label>	
+		<input type="email" class="control" name="txtMail" id="txtMail">
+	
+		<label for="txtConoscenze"> Conoscenze Informatiche: </label>
+		<div class="control">
+			<span>1</span>
+			<input type="range" name="txtConoscenze" id="txtConoscenze"
+				   min="1" max="10" step="1" >
+			<span>10</span>
+		</div>				
+	</fieldset>
+		
+	<input type="submit" value="invia">	
+	<br>
+	<div class="progress">
+	<progress id="prog1" min="1" max="100" value="30" > controllabile da JS 
+	</progress>
+	<progress id="prog2" min="1" max="100"> senza value </progress> 
+	</div>
+</form>	
+
+</body>
+</html>

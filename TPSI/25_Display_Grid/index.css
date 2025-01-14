@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+#wrapper{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 22px 22px 22px 22px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;
+    row-gap: 8px;
+    column-gap: 5px;
+    
+}
+#wrapper>label{
+    text-align: right ;
+    margin-right: 8px;
+}

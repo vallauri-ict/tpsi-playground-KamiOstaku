@@ -1,0 +1,42 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+table{
+    margin: 20px auto;
+    border: 1px solid #999; /* Bordo esterno */
+    background-color: #eee ;
+    border-spacing: 1px;
+
+}
+table thead th{
+    width: 130px;
+    background-color: #aaf;
+    padding: 10px;
+}
+table tbody tr{
+    background-color: #ffa;
+    /* tr non subisce modifiche adl padding, infatti il padding può essere messo solo su td */
+    
+}
+table tbody td{
+    padding: 10px;
+}
+table tbody td:hover{
+    background-color: #00f;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+table tbody tr:nth-of-type(even){
+    background-color: #afa;
+}
+table tbody tr:nth-of-type(odd){
+    background-color: #faa;
+}
