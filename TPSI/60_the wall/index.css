@@ -1,0 +1,235 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana,Helvetica;
+    font-size: 11pt;  
+}
+
+body
+{
+    background-image: url("./img/sfondo.jpg");
+    background-repeat: repeat; 
+    height: 100%;
+}
+
+#wrapper
+{
+    width: 1024px;
+    margin: 0px auto;
+    border: blue 1px solid;
+}
+
+header > h1
+{
+    font-size: 30pt;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    text-shadow: 3px 3px 4px darkblue;
+}
+
+header > nav
+{
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgba(40,40,40,50%);
+    border-radius: 12px;
+    box-shadow: 3px 4px;
+}
+
+header > nav > h3
+{
+    color: cyan;
+}
+
+header > nav > ul
+{
+    display: flex;
+    flex-direction: row;
+    border: blue 1px solid;
+    list-style: none;
+}
+
+header > nav > ul li
+{
+    width: 80px;
+    height: 35px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    background-image: radial-gradient(#333, #eee);
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px;
+    text-align: center;
+    line-height: 225%;
+}
+
+header > nav > ul li a
+{
+    text-decoration: none;
+    color: cyan;
+}
+
+header > nav > ul li:hover
+{
+    background-image: radial-gradient(blue, #0dd);
+    transition: transform 0.5;
+    transform: scale(106%);
+}
+
+header > nav > ul li:hover a
+{
+    color: yellow;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section#mainSection
+{
+    width: 615px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    box-shadow: 3px 3px 4px #333;
+}
+
+section#mainSection h2, section#mainSection p
+{
+    margin: 10px;
+}
+
+section#mainSection a img
+{
+    width: 192px;
+    margin: 4px;
+    opacity: 40%;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px #888;
+    text-decoration: none;
+}
+
+
+section#mainSection a
+{
+    text-decoration: none;
+}
+
+section#mainSection img:hover
+{
+    opacity: 100%;
+    rotate: 5deg;
+    transform: transform 0.5;
+}
+
+aside section
+{
+    width: 310px;
+    margin: 12px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    box-shadow: 3px 3px 4px #333;
+}
+
+aside section div#progressBar
+{
+    height: 20px;
+    margin: 15px;
+    background-color: lightgreen;
+    animation: progressbar 3s linear 0s infinite;
+    overflow: hidden;
+}
+
+@keyframes progressbar
+{
+    0%
+    {
+        width: 0%;
+    }
+
+    100%
+    {
+        width: 95%;
+    }
+}
+
+form input:nth-of-type(4)
+{
+    width: 100px;
+}
+form fieldset div
+{
+    margin-left: 200px;
+}
+form fieldset div input
+{
+    font-weight: bold;
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: #bbb;
+    border-radius: 8px;
+    box-shadow: 3px 3px 2px #0dd , 6px 6px 2px black;
+}
+
+ul#socialNetworks
+{
+    list-style: none;
+}
+
+ul#socialNetworks li
+{
+    width: 60px;
+    height: 55px;
+    display: inline-block;
+}
+
+ul#socialNetworks li.twitter
+{
+    background-image: url("./img/socialNetworks.png");
+    background-position: 0px 0px;
+}
+ul#socialNetworks li.facebook
+{
+    background-image: url("./img/socialNetworks.png");
+    background-position: -60px 0px;
+}
+ul#socialNetworks li.linkedin
+{
+    background-image: url("./img/socialNetworks.png");
+    background-position: -120px 0px;
+}
+
+ul#socialNetworks li:hover
+{
+
+}
+ul#socialNetworks li.twitter:hover
+{
+    background-repeat: no-repeat;
+    background-position: 0px 53px;
+    transform: translateZ(53px) ;
+}
+ul#socialNetworks li.facebook:hover
+{
+    background-repeat: no-repeat;
+    background-position: -60px 53px;
+    transform: translateZ(53px) ;
+}
+ul#socialNetworks li.linkedin:hover
+{
+    background-repeat: no-repeat;
+    background-position: -120px 53px;
+    transform: translateZ(53px) ;
+}

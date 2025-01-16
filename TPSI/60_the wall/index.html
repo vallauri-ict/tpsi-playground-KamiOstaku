@@ -22,6 +22,7 @@
 		</nav>
 	</header>
     
+	<div class="main">
    	<section id="mainSection">  
         <article>
                 <h2> Scarica le nostre Demo: </h2>
@@ -44,6 +45,49 @@
             <form id="form1">
 			<fieldset>
                   <!-- inserire qui i controlli -->
+				   <form action="">
+					<label for="nome">Nome: </label>
+					<input type="text" name="nome" placeholder="Nome">
+					<br><br>
+
+					<label for="Cognome">Cognome: </label>
+					<input type="text" name="Cognome" placeholder="Cognome">
+					<br><br>
+
+					<label for="data">Data di nascita:</label>
+					<input type="date" required>
+					<br><br>
+
+					<label for="">Classe di appartenenza</label>
+					<SELECT name=”lstColori”>
+						<OPTION SELECTED> 1 </OPTION>
+						<OPTION> 2 </OPTION>
+						<OPTION> 3 </OPTION>
+						<OPTION> 4 </OPTION>
+						<OPTION> 5 </OPTION>
+					</SELECT>
+					<br><br>
+
+					<label for="sezioni">Settore: </label>
+					<input type="text" name="sezioni" list="sezioni">
+						<datalist id="sezioni">
+						<option value="i">informatica</option>
+						<option value="e">elettrotecnica</option>
+						<option value="m">meccanica</option>
+						</datalist>
+					<br><br>
+
+					<label for="km">Km da Fossano: </label>
+					<br>
+					<span>1 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 50</span>
+					<br>
+					<input type="range" name="km" min="0" max="50" step="5">
+					<br><br>
+					
+					<div>
+					<input type="submit" value="invia">
+					</div>
+					</form>
 			</fieldset> 
             </form>			
 		</section>  
@@ -55,6 +99,7 @@
 		</ul>	
 		
     </aside> 
+	</div>
                
     </div>   <!-- wrapper -->   
 </body>
