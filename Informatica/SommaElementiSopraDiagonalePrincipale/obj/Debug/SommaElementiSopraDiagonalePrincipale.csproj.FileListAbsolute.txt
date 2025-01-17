@@ -1,0 +1,8 @@
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\SommaElementiSopraDiagonalePrincipale\bin\Debug\SommaElementiSopraDiagonalePrincipale.exe.config
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\SommaElementiSopraDiagonalePrincipale\bin\Debug\SommaElementiSopraDiagonalePrincipale.exe
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\SommaElementiSopraDiagonalePrincipale\bin\Debug\SommaElementiSopraDiagonalePrincipale.pdb
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\SommaElementiSopraDiagonalePrincipale\obj\Debug\SommaElementiSopraDiagonalePrincipale.csproj.AssemblyReference.cache
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\SommaElementiSopraDiagonalePrincipale\obj\Debug\SommaElementiSopraDiagonalePrincipale.csproj.SuggestedBindingRedirects.cache
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\SommaElementiSopraDiagonalePrincipale\obj\Debug\SommaElementiSopraDiagonalePrincipale.csproj.CoreCompileInputs.cache
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\SommaElementiSopraDiagonalePrincipale\obj\Debug\SommaElementiSopraDiagonalePrincipale.exe
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\SommaElementiSopraDiagonalePrincipale\obj\Debug\SommaElementiSopraDiagonalePrincipale.pdb

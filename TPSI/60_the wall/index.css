@@ -218,18 +218,18 @@ ul#socialNetworks li:hover
 ul#socialNetworks li.twitter:hover
 {
     background-repeat: no-repeat;
-    background-position: 0px 53px;
-    transform: translateZ(53px) ;
+    background-position: 0px 0px;
+    transform: translateY(-53px) ;
 }
 ul#socialNetworks li.facebook:hover
 {
     background-repeat: no-repeat;
-    background-position: -60px 53px;
-    transform: translateZ(53px) ;
+    background-position: -60px 0px;
+    transform: translateY(-53px) ;
 }
 ul#socialNetworks li.linkedin:hover
 {
     background-repeat: no-repeat;
-    background-position: -120px 53px;
-    transform: translateZ(53px) ;
+    background-position: -120px 0px;
+    transition: translateY(-53px);
 }
