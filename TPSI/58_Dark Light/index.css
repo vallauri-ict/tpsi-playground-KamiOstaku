@@ -1,66 +1,61 @@
 :root {
-    --background-light: #f4f4f9;
-    --background-dark: #333333;
-    --text-light: #ffffff;
-    --text-dark: #333333;
+    --background-color: #f4f4f9;
+    --text-color: #333333;
     --card-color: #ffffff;
-    --button-color: #499BFD;
+    --button-color: #5599ff;
 }
 
 .dark-mode {
-    --background-light: #333333;
-    --background-dark:#f4f4f9;
-    --text-dark: #ffffff;
-    --text-light: #333333;
+    --background-color: #333333;
+    --text-color: #ffffff;
     --card-color: #444444;  
+	--button-color: #dddddd;
 }
 
-body {
+body
+{
     height: 100vh;
-    margin: 0; 
+    margin: 0px;
     padding: 20px;
-    background-color: var(--background-light);
-    color: var(--text-dark);
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.4s, color 0.4s;
 }
 
-.cards-container {
-    display: flex;
-    flex-direction:column;
-	justify-content:flex-start; /* verticale */
-    align-items:center; /* orizzontale */
+.main-container
+{
     width: 400px;
-	height:400px;
-    margin:0 auto;
+    height: 400px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-color: var(--card-color);
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.theme-button {
+
+.theme-button
+{
     position: fixed;
     top: 20px;
     right: 20px;
-
     width: 50px;
     height: 50px;
     border-radius: 50%;
     border: none;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
-
     background-color: var(--button-color);
-    color:yellow;
-    cursor: pointer;   
-     
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.theme-button
+{
+    background-color: #37c;
 }
 
 
-.theme-button:hover {
-    background-color: #3880d6;
-}
 
 

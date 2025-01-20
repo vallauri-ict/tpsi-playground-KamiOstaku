@@ -3,7 +3,6 @@ window.onload=function(){
     const body = document.body;
     const toggleButton = document.querySelector('.theme-button');
 
-
     toggleButton.addEventListener('click', function(){
         body.classList.toggle('dark-mode');
  
