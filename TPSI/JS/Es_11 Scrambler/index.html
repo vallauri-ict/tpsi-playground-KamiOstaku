@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="it">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Scrambler</title>
+		<link rel="stylesheet" href="index.css"/>
+		<script type="application/javascript" src="index.js"></script>
+	</head>	
+	<body>   
+		<div id="wrapper">
+			<h1>Scrambler</h1>
+			<div id="div1"> </div>
+			<div id="div2"> </div>
+			<br>
+
+			<label>
+				Stringa: 
+				<input type="text" id="txt1" oninput="converti()">
+			</label>
+			<br>
+			<label>
+				Nuova stringa: 
+				<input type="text" id="txt2" readonly>
+			</label>
+			<br><br>
+			
+			<button onclick="scrambler()">Scramble</button>
+			<button onclick="descrambler()">Descramble</button>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css"/>
+        <script type="application/javascript" src="index.js"></script>
+        <title>Impiccato</title>
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <h1>Gioco dell'impiccato</h1>
+			
+			<div>
+				<div> <!-- Lato sinistro -->
+					<p> Parola Segreta: </p>
+					<input type="text" id="txtParola" readonly>
+					<p>
+						Inserisci una lettera: 
+						<input type="text" id="txtLettera" maxlength="1" oninput="converti()">
+						<button onclick="elabora()"> Invia </button>
+					</p>	
+				</div>
+				
+				<div> <!-- Lato destro -->
+					<img src="img/vuoto.png">
+				</div>			
+            </div>
+			
+        </div>
+    </body>
+</html>
