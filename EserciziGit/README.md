@@ -24,7 +24,7 @@ fork in git = Una copia di una repository nella quale il nuovo proprietario si s
 
 https://www.youtube.com/watch?v=HkdAHXoRtos = da rivedere le sezioni riguardo a merge,fork,mailing address e pull requests
 
-"Hi I am Terry Davis and i am the smartest programmer that ever lived" -Terry Davis
+"Hi I am Terry Davis and i am the smartest programmer that ever lived" --Terry Davis
 
 ------------------
 
