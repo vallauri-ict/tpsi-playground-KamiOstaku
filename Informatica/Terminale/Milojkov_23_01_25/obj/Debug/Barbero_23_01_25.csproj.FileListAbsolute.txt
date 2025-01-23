@@ -1,0 +1,14 @@
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\bin\Debug\Barbero_23_01_25.exe.config
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\bin\Debug\Barbero_23_01_25.exe
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\bin\Debug\Barbero_23_01_25.pdb
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\obj\Debug\Barbero_23_01_25.csprojAssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\obj\Debug\Barbero_23_01_25.exe
+C:\Users\alberto.barbero\Desktop\Barbero_23_01_25\obj\Debug\Barbero_23_01_25.pdb
+C:\Users\n.milojkov.3572\Desktop\Milojkov_23_01_25\bin\Debug\Barbero_23_01_25.exe.config
+C:\Users\n.milojkov.3572\Desktop\Milojkov_23_01_25\bin\Debug\Barbero_23_01_25.exe
+C:\Users\n.milojkov.3572\Desktop\Milojkov_23_01_25\bin\Debug\Barbero_23_01_25.pdb
+C:\Users\n.milojkov.3572\Desktop\Milojkov_23_01_25\obj\Debug\Barbero_23_01_25.csproj.AssemblyReference.cache
+C:\Users\n.milojkov.3572\Desktop\Milojkov_23_01_25\obj\Debug\Barbero_23_01_25.csproj.SuggestedBindingRedirects.cache
+C:\Users\n.milojkov.3572\Desktop\Milojkov_23_01_25\obj\Debug\Barbero_23_01_25.csproj.CoreCompileInputs.cache
+C:\Users\n.milojkov.3572\Desktop\Milojkov_23_01_25\obj\Debug\Barbero_23_01_25.exe
+C:\Users\n.milojkov.3572\Desktop\Milojkov_23_01_25\obj\Debug\Barbero_23_01_25.pdb
