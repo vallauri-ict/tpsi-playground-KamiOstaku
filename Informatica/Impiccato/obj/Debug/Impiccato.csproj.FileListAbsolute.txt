@@ -1,0 +1,11 @@
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\bin\Debug\Impiccato.exe.config
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\bin\Debug\Impiccato.exe
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\bin\Debug\Impiccato.pdb
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\obj\Debug\Impiccato.csproj.AssemblyReference.cache
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\obj\Debug\Impiccato.csproj.SuggestedBindingRedirects.cache
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\obj\Debug\Impiccato.FrmMain.resources
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\obj\Debug\Impiccato.Properties.Resources.resources
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\obj\Debug\Impiccato.csproj.GenerateResource.cache
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\obj\Debug\Impiccato.csproj.CoreCompileInputs.cache
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\obj\Debug\Impiccato.exe
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Impiccato\obj\Debug\Impiccato.pdb
