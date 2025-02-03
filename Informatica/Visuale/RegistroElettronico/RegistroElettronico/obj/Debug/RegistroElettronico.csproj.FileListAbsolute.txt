@@ -1,0 +1,10 @@
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.AssemblyReference.cache
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.frmMain.resources
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.Properties.Resources.resources
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.GenerateResource.cache
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.CoreCompileInputs.cache
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\bin\Debug\RegistroElettronico.exe.config
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\bin\Debug\RegistroElettronico.exe
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\bin\Debug\RegistroElettronico.pdb
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.exe
+C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.pdb
