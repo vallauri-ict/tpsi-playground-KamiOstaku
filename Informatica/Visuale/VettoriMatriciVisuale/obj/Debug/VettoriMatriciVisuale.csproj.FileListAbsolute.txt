@@ -18,3 +18,13 @@ C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\
 C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.csproj.CoreCompileInputs.cache
 C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.exe
 C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\bin\Debug\VettoriMatriciVisuale.exe.config
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\bin\Debug\VettoriMatriciVisuale.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\bin\Debug\VettoriMatriciVisuale.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.csproj.AssemblyReference.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.frmMain.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.Properties.Resources.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.csproj.GenerateResource.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.csproj.CoreCompileInputs.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.pdb
