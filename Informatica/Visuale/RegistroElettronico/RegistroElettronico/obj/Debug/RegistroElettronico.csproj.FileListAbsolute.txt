@@ -8,3 +8,13 @@ C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\
 C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\bin\Debug\RegistroElettronico.pdb
 C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.exe
 C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\bin\Debug\RegistroElettronico.exe.config
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\bin\Debug\RegistroElettronico.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\bin\Debug\RegistroElettronico.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.AssemblyReference.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.frmMain.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.Properties.Resources.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.GenerateResource.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.csproj.CoreCompileInputs.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\RegistroElettronico\RegistroElettronico\obj\Debug\RegistroElettronico.pdb

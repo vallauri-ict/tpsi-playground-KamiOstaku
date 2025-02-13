@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\VettoriMatriciVisuale\\",
   "Documents": [
     {
@@ -13,6 +14,25 @@
     {
       "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\VettoriMatriciVisuale\\clsVettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:clsVettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|c:\\users\\alberto.barbero\\desktop\\vettorimatricivisuale\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\clsmatrici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:clsmatrici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\clsvettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7397F6A5-4312-4510-8AF0-909F42C5C06E}|VettoriMatriciVisuale.csproj|solutionrelative:clsvettori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 728bc410fe387cd554330aa0bd1e7dbd5e4ba955
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +42,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
+=======
+          "SelectedChildIndex": 2,
+>>>>>>> 728bc410fe387cd554330aa0bd1e7dbd5e4ba955
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "clsVettori.cs",
               "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\VettoriMatriciVisuale\\clsVettori.cs",
               "RelativeDocumentMoniker": "clsVettori.cs",
@@ -35,10 +60,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwB0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T08:01:00.321Z",
+=======
+              "Title": "clsMatrici.cs",
+              "DocumentMoniker": "C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\clsMatrici.cs",
+              "RelativeDocumentMoniker": "clsMatrici.cs",
+              "ToolTip": "C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\clsMatrici.cs",
+              "RelativeToolTip": "clsMatrici.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA8wBsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:25:17.401Z",
+>>>>>>> 728bc410fe387cd554330aa0bd1e7dbd5e4ba955
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "frmMain.cs",
               "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\VettoriMatriciVisuale\\frmMain.cs",
@@ -48,18 +84,50 @@
               "ViewState": "AgIAAKYAAAAAAAAAAAAlwLQAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T08:01:00.561Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "clsVettori.cs",
+              "DocumentMoniker": "C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\clsVettori.cs",
+              "RelativeDocumentMoniker": "clsVettori.cs",
+              "ToolTip": "C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\clsVettori.cs",
+              "RelativeToolTip": "clsVettori.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAgwIIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:07:40.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\frmMain.cs",
+              "RelativeToolTip": "frmMain.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAuwI4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:57:30.025Z",
+>>>>>>> 728bc410fe387cd554330aa0bd1e7dbd5e4ba955
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "frmMain.cs [Progettazione]",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\VettoriMatriciVisuale\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
               "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\VettoriMatriciVisuale\\frmMain.cs [Progettazione]",
               "RelativeToolTip": "frmMain.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T08:01:05.146Z",
+=======
+              "DocumentMoniker": "C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\alberto.barbero\\Desktop\\VettoriMatriciVisuale\\frmMain.cs [Progettazione]",
+              "RelativeToolTip": "frmMain.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:54:13.687Z",
+>>>>>>> 728bc410fe387cd554330aa0bd1e7dbd5e4ba955
               "EditorCaption": " [Progettazione]"
             }
           ]

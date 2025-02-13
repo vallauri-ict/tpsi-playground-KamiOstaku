@@ -38,12 +38,14 @@
             // 
             this.buttonCpuChoice.BackColor = System.Drawing.Color.LawnGreen;
             this.buttonCpuChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCpuChoice.Location = new System.Drawing.Point(73, 206);
+            this.buttonCpuChoice.Location = new System.Drawing.Point(97, 254);
+            this.buttonCpuChoice.Margin = new System.Windows.Forms.Padding(4);
             this.buttonCpuChoice.Name = "buttonCpuChoice";
-            this.buttonCpuChoice.Size = new System.Drawing.Size(187, 104);
+            this.buttonCpuChoice.Size = new System.Drawing.Size(249, 128);
             this.buttonCpuChoice.TabIndex = 0;
             this.buttonCpuChoice.Text = "Gioca contro la CPU";
             this.buttonCpuChoice.UseVisualStyleBackColor = false;
+            this.buttonCpuChoice.Click += new System.EventHandler(this.buttonCpuChoice_Click);
             // 
             // label1
             // 
@@ -51,9 +53,10 @@
             this.label1.BackColor = System.Drawing.Color.LightYellow;
             this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 27.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(156, 88);
+            this.label1.Location = new System.Drawing.Point(208, 108);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(483, 45);
+            this.label1.Size = new System.Drawing.Size(615, 56);
             this.label1.TabIndex = 1;
             this.label1.Text = "BENVENUTO NEL GIOCO DI FORZA 4";
             // 
@@ -61,9 +64,10 @@
             // 
             this.buttonPlayerChoice.BackColor = System.Drawing.Color.LawnGreen;
             this.buttonPlayerChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPlayerChoice.Location = new System.Drawing.Point(543, 206);
+            this.buttonPlayerChoice.Location = new System.Drawing.Point(724, 254);
+            this.buttonPlayerChoice.Margin = new System.Windows.Forms.Padding(4);
             this.buttonPlayerChoice.Name = "buttonPlayerChoice";
-            this.buttonPlayerChoice.Size = new System.Drawing.Size(187, 104);
+            this.buttonPlayerChoice.Size = new System.Drawing.Size(249, 128);
             this.buttonPlayerChoice.TabIndex = 2;
             this.buttonPlayerChoice.Text = "Gioca contro un altro giocatore!";
             this.buttonPlayerChoice.UseVisualStyleBackColor = false;
@@ -73,9 +77,10 @@
             this.rules.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.rules.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rules.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.rules.Location = new System.Drawing.Point(308, 206);
+            this.rules.Location = new System.Drawing.Point(411, 254);
+            this.rules.Margin = new System.Windows.Forms.Padding(4);
             this.rules.Name = "rules";
-            this.rules.Size = new System.Drawing.Size(187, 104);
+            this.rules.Size = new System.Drawing.Size(249, 128);
             this.rules.TabIndex = 3;
             this.rules.Text = "Regole";
             this.rules.UseVisualStyleBackColor = false;
@@ -83,14 +88,15 @@
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.rules);
             this.Controls.Add(this.buttonPlayerChoice);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonCpuChoice);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMain";
             this.Text = "Form1";
             this.ResumeLayout(false);

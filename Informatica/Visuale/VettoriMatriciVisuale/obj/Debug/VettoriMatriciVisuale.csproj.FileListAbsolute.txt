@@ -8,6 +8,7 @@ C:\Users\alberto.barbero\Desktop\VettoriMatriciVisuale\obj\Debug\VettoriMatriciV
 C:\Users\alberto.barbero\Desktop\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.exe
 C:\Users\alberto.barbero\Desktop\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.pdb
 C:\Users\alberto.barbero\Desktop\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.frmMain.resources
+<<<<<<< HEAD
 C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\bin\Debug\VettoriMatriciVisuale.exe.config
 C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\bin\Debug\VettoriMatriciVisuale.exe
 C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\bin\Debug\VettoriMatriciVisuale.pdb
@@ -28,3 +29,5 @@ C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMat
 C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.csproj.CoreCompileInputs.cache
 C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.exe
 C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\VettoriMatriciVisuale\obj\Debug\VettoriMatriciVisuale.pdb
+=======
+>>>>>>> 728bc410fe387cd554330aa0bd1e7dbd5e4ba955

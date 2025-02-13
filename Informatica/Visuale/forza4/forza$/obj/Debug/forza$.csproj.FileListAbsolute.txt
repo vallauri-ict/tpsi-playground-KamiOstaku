@@ -9,3 +9,14 @@ C:\Users\n.milojkov.3572\source\repos\forza$\forza$\bin\Debug\forza$.exe
 C:\Users\n.milojkov.3572\source\repos\forza$\forza$\bin\Debug\forza$.pdb
 C:\Users\n.milojkov.3572\source\repos\forza$\forza$\obj\Debug\forza$.exe
 C:\Users\n.milojkov.3572\source\repos\forza$\forza$\obj\Debug\forza$.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\bin\Debug\forza$.exe.config
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\bin\Debug\forza$.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\bin\Debug\forza$.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\obj\Debug\forza$.csproj.AssemblyReference.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\obj\Debug\forza_.Alone.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\obj\Debug\forza_.frmMain.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\obj\Debug\forza_.Properties.Resources.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\obj\Debug\forza$.csproj.GenerateResource.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\obj\Debug\forza$.csproj.CoreCompileInputs.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\obj\Debug\forza$.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4\forza$\obj\Debug\forza$.pdb
