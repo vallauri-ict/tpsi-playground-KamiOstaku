@@ -24,19 +24,6 @@ namespace forza_
             gameMod = tipo;
         }
 
-        private void giocoCPU()
-        {
-            //char turn = 'X';
-            //do
-            //{
-            //    posizionaPezzo(turn);
-            //    if (turn == 'O')
-            //    {
-            //        y = rnd.Next(0, 7);
-            //    }
-            //} while (!winCondition());
-        }
-
         private void posizionaPezzo(char turn)
         {
             int i = 0;
@@ -100,8 +87,8 @@ namespace forza_
             CreaGridView();
             if (gameMod)
             {
-                giocoCPU();
-            }  
+            }
+
         }
     }
 }
