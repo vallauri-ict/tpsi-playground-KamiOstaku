@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\",
+  "WorkspaceRootPath": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|c:\\users\\nikol\\desktop\\tpsi-playground-kamiostaku\\informatica\\visuale\\forza4\\forza$\\alone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|c:\\users\\nikol\\onedrive\\desktop\\school\\informatica\\visuale\\forza4\\forza$\\alone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|solutionrelative:forza$\\alone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\alone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\alone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|solutionrelative:forza$\\alone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\alone.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|solutionrelative:forza$\\alone.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|solutionrelative:forza$\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|solutionrelative:forza$\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|solutionrelative:forza$\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|solutionrelative:forza$\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\alone.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|solutionrelative:forza$\\alone.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F20DF0C8-9770-4840-9DAE-AB7152C6BD37}|forza$\\forza$.csproj|solutionrelative:forza$\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -34,78 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Alone.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\Alone.Designer.cs",
-              "RelativeDocumentMoniker": "forza$\\Alone.Designer.cs",
-              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\Alone.Designer.cs",
-              "RelativeToolTip": "forza$\\Alone.Designer.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAArwFUAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\Program.cs",
+              "RelativeDocumentMoniker": "forza$\\Program.cs",
+              "ToolTip": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\Program.cs",
+              "RelativeToolTip": "forza$\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T08:23:52.238Z"
+              "WhenOpened": "2025-02-13T17:57:13.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\frmMain.cs",
+              "RelativeDocumentMoniker": "forza$\\frmMain.cs",
+              "ToolTip": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\frmMain.cs",
+              "RelativeToolTip": "forza$\\frmMain.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:56:25.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Alone.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\Alone.Designer.cs",
+              "RelativeDocumentMoniker": "forza$\\Alone.Designer.cs",
+              "ToolTip": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\Alone.Designer.cs",
+              "RelativeToolTip": "forza$\\Alone.Designer.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAewCwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:23:52.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Alone.cs",
-              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\Alone.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\Alone.cs",
               "RelativeDocumentMoniker": "forza$\\Alone.cs",
-              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\Alone.cs",
+              "ToolTip": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\Alone.cs",
               "RelativeToolTip": "forza$\\Alone.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwEUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T07:22:25.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "frmMain.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\frmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\frmMain.Designer.cs",
               "RelativeDocumentMoniker": "forza$\\frmMain.Designer.cs",
-              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\frmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\frmMain.Designer.cs",
               "RelativeToolTip": "forza$\\frmMain.Designer.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAUwGQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T07:56:00.567Z"
+              "WhenOpened": "2025-02-10T07:56:00.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Alone.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\Alone.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\Alone.cs",
               "RelativeDocumentMoniker": "forza$\\Alone.cs",
-              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\Alone.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\Alone.cs [Progettazione]",
               "RelativeToolTip": "forza$\\Alone.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T07:10:22.104Z"
+              "WhenOpened": "2025-02-10T07:10:22.104Z",
+              "EditorCaption": " [Progettazione]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\frmMain.cs",
-              "RelativeDocumentMoniker": "forza$\\frmMain.cs",
-              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\frmMain.cs",
-              "RelativeToolTip": "forza$\\frmMain.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T07:10:22.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "frmMain.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\frmMain.cs",
               "RelativeDocumentMoniker": "forza$\\frmMain.cs",
-              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\forza4\\forza$\\frmMain.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\nikol\\OneDrive\\Desktop\\school\\Informatica\\Visuale\\forza4\\forza$\\frmMain.cs [Progettazione]",
               "RelativeToolTip": "forza$\\frmMain.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T07:10:22.287Z"
+              "WhenOpened": "2025-02-10T07:10:22.287Z",
+              "EditorCaption": " [Progettazione]"
             }
           ]
         }

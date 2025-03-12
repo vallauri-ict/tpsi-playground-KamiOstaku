@@ -38,23 +38,22 @@
             // 
             this.gameBoard.BackgroundColor = System.Drawing.Color.White;
             this.gameBoard.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gameBoard.Location = new System.Drawing.Point(405, 152);
-            this.gameBoard.Margin = new System.Windows.Forms.Padding(4);
+            this.gameBoard.Location = new System.Drawing.Point(304, 124);
             this.gameBoard.Name = "gameBoard";
+            this.gameBoard.ReadOnly = true;
             this.gameBoard.RowHeadersWidth = 51;
-            this.gameBoard.Size = new System.Drawing.Size(418, 234);
+            this.gameBoard.Size = new System.Drawing.Size(314, 190);
             this.gameBoard.TabIndex = 0;
-            this.gameBoard.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gameBoard_CellContentClick);
+            this.gameBoard.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.MossaPlayer);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(457, 390);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(343, 317);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(302, 29);
+            this.label1.Size = new System.Drawing.Size(240, 24);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tocca al giocatore rosso";
             // 
@@ -63,10 +62,9 @@
             this.endGame.BackColor = System.Drawing.Color.RosyBrown;
             this.endGame.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.endGame.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.endGame.Location = new System.Drawing.Point(86, 235);
-            this.endGame.Margin = new System.Windows.Forms.Padding(4);
+            this.endGame.Location = new System.Drawing.Point(64, 191);
             this.endGame.Name = "endGame";
-            this.endGame.Size = new System.Drawing.Size(187, 92);
+            this.endGame.Size = new System.Drawing.Size(140, 75);
             this.endGame.TabIndex = 2;
             this.endGame.Text = "Termina partita";
             this.endGame.UseVisualStyleBackColor = false;
@@ -74,14 +72,13 @@
             // 
             // Alone
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(890, 554);
+            this.ClientSize = new System.Drawing.Size(668, 450);
             this.Controls.Add(this.endGame);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gameBoard);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Alone";
             this.Text = "Alone";
             this.Load += new System.EventHandler(this.Alone_Load);

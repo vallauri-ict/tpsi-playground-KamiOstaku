@@ -15,8 +15,12 @@ namespace forza_
     public partial class Alone : Form
     {
         int y = 0;
-        int[,] m = new int[7, 6];
+        char[,] m = new char[6, 7];
         bool gameMod;
+        char turno = 'X';
+        bool check = false;
+        bool check2 = false;
+
         public Random rnd = new Random();
         public Alone(bool tipo)
         {
@@ -24,44 +28,47 @@ namespace forza_
             gameMod = tipo;
         }
 
-        private void giocoCPU()
-        {
-            //char turn = 'X';
-            //do
-            //{
-            //    posizionaPezzo(turn);
-            //    if (turn == 'O')
-            //    {
-            //        y = rnd.Next(0, 7);
-            //    }
-            //} while (!winCondition());
-        }
-
-        private void posizionaPezzo(char turn)
+        private void posizionaPezzo(int y)
         {
             int i = 0;
-            while(i<7 && m[i,y] == 0)
+            while(i<5 && m[i,y] == '\0')
             {
-                i++;
-            }
-            if (i < 7)
-            {
-                m[i, y] = turn;
-                gameBoard.Rows[i].Cells[y].Value = turn;
-                if (turn == 'X')
+                if(m[i, y] != 'X' && m[i, y] != 'O')
                 {
-                    gameBoard.Rows[i].Cells[y].Style.ForeColor = Color.Red;
-                    turn = 'O';
+                    i++;
                 }
                 else
                 {
-                    gameBoard.Rows[i].Cells[y].Style.ForeColor = Color.Yellow;
-                    turn = 'X';
+                    i--;
+                    break;
                 }
+            }
+            if (i < 6 && i>=-1)
+            {
+                m[i, y] = turno;
+                gameBoard.Rows[i].Cells[y].Value = turno;
+                if (turno == 'X')
+                {
+                    gameBoard.Rows[i].Cells[y].Style.ForeColor = Color.Red;
+                    turno = 'O';
+                    check2 = true;
+                    MessageBox.Show(gameBoard.Rows[i].Cells[y].Value.ToString());
+                }
+                else
+                {
+                    gameBoard.Rows[i].Cells[y].Style.ForeColor = Color.Green;
+                    turno = 'X';
+                }
+                check = false;
             }
             else
             {
-                MessageBox.Show("Input non valido, non è stata contata la mossa");
+                check = true;
+                if(gameMod)
+                {
+                    MessageBox.Show("Input non valido, non è stata contata la mossa");
+                    check2 = false;
+                }
             }
         }
 
@@ -90,18 +97,38 @@ namespace forza_
             frmMain.Show();
         }
 
-        private void gameBoard_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            y = e.RowIndex;
-        }
-
         private void Alone_Load(object sender, EventArgs e)
         {
-            CreaGridView();
-            if (gameMod)
+            CreaGridView();  
+        }
+
+        private void MossaPlayer(object sender, DataGridViewCellEventArgs e)
+        {
+            if(gameMod)
             {
-                giocoCPU();
-            }  
+                posizionaPezzo(e.ColumnIndex);
+
+                if(check2)
+                {
+                    do
+                    {
+                        posizionaPezzo(rnd.Next(0, 7));
+                    } while (check);
+                    check = false;
+                }
+            }
+            else
+            {
+                posizionaPezzo(e.ColumnIndex);
+            }
+
+            winCondition();
+            check2 = false;
+        }
+
+        private void Attesa()
+        {
+
         }
     }
 }

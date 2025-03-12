@@ -27,9 +27,9 @@ namespace forza_
         private void buttonCpuChoice_Click(object sender, EventArgs e)
         {
             tipoGioco = true;
-            Alone = new Alone(tipoGioco);
-            Hide();
-            Alone.Show();
+            Alone alone= new Alone(tipoGioco);
+            this.Hide();
+            alone.Show();
         }
     }
 }
