@@ -1,0 +1,10 @@
+C:\Users\alberto.barbero\Desktop\GetioneTabella3B\bin\Debug\GetioneTabella3B.exe.config
+C:\Users\alberto.barbero\Desktop\GetioneTabella3B\bin\Debug\GetioneTabella3B.exe
+C:\Users\alberto.barbero\Desktop\GetioneTabella3B\bin\Debug\GetioneTabella3B.pdb
+C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.csproj.AssemblyReference.cache
+C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.frmMain.resources
+C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.Properties.Resources.resources
+C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.csproj.GenerateResource.cache
+C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.csproj.CoreCompileInputs.cache
+C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.exe
+C:\Users\alberto.barbero\Desktop\GetioneTabella3B\obj\Debug\GetioneTabella3B.pdb

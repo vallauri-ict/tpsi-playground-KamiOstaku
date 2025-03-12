@@ -28,7 +28,11 @@ namespace forza_
             gameMod = tipo;
         }
 
+<<<<<<< HEAD
         private void posizionaPezzo(int y)
+=======
+        private void posizionaPezzo(char turn)
+>>>>>>> ae116d50a0fd58eecddc70a633c5f48f600c96ca
         {
             int i = 0;
             while(i<5 && m[i,y] == '\0')
@@ -106,6 +110,7 @@ namespace forza_
         {
             if(gameMod)
             {
+<<<<<<< HEAD
                 posizionaPezzo(e.ColumnIndex);
 
                 if(check2)
@@ -129,6 +134,10 @@ namespace forza_
         private void Attesa()
         {
 
+=======
+            }
+
+>>>>>>> ae116d50a0fd58eecddc70a633c5f48f600c96ca
         }
     }
 }
