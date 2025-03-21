@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GestioneClientelaNegozio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{425518D4-B30F-4519-9EB8-E00D818DAEE9}|GestioneClientelaNegozio\\GestioneClientelaNegozio.csproj|c:\\users\\nikol\\desktop\\tpsi-playground-kamiostaku\\informatica\\visuale\\gestioneclientelanegozio\\gestioneclientelanegozio\\clientmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{425518D4-B30F-4519-9EB8-E00D818DAEE9}|GestioneClientelaNegozio\\GestioneClientelaNegozio.csproj|solutionrelative:gestioneclientelanegozio\\clientmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425518D4-B30F-4519-9EB8-E00D818DAEE9}|GestioneClientelaNegozio\\GestioneClientelaNegozio.csproj|c:\\users\\nikol\\desktop\\tpsi-playground-kamiostaku\\informatica\\visuale\\gestioneclientelanegozio\\gestioneclientelanegozio\\clientmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425518D4-B30F-4519-9EB8-E00D818DAEE9}|GestioneClientelaNegozio\\GestioneClientelaNegozio.csproj|solutionrelative:gestioneclientelanegozio\\clientmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425518D4-B30F-4519-9EB8-E00D818DAEE9}|GestioneClientelaNegozio\\GestioneClientelaNegozio.csproj|c:\\users\\nikol\\desktop\\tpsi-playground-kamiostaku\\informatica\\visuale\\gestioneclientelanegozio\\gestioneclientelanegozio\\clientmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425518D4-B30F-4519-9EB8-E00D818DAEE9}|GestioneClientelaNegozio\\GestioneClientelaNegozio.csproj|solutionrelative:gestioneclientelanegozio\\clientmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GestioneClientelaNegozio\\GestioneClientelaNegozio\\ClientManagement.cs",
+              "RelativeDocumentMoniker": "GestioneClientelaNegozio\\ClientManagement.cs",
+              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GestioneClientelaNegozio\\GestioneClientelaNegozio\\ClientManagement.cs [Design]",
+              "RelativeToolTip": "GestioneClientelaNegozio\\ClientManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T10:51:25.832Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientManagement.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GestioneClientelaNegozio\\GestioneClientelaNegozio\\ClientManagement.cs",
+              "RelativeDocumentMoniker": "GestioneClientelaNegozio\\ClientManagement.cs",
+              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GestioneClientelaNegozio\\GestioneClientelaNegozio\\ClientManagement.cs",
+              "RelativeToolTip": "GestioneClientelaNegozio\\ClientManagement.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAmwIgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T10:26:22.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientManagement.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GestioneClientelaNegozio\\GestioneClientelaNegozio\\ClientManagement.Designer.cs",
+              "RelativeDocumentMoniker": "GestioneClientelaNegozio\\ClientManagement.Designer.cs",
+              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GestioneClientelaNegozio\\GestioneClientelaNegozio\\ClientManagement.Designer.cs",
+              "RelativeToolTip": "GestioneClientelaNegozio\\ClientManagement.Designer.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAArwJEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T10:51:18.198Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

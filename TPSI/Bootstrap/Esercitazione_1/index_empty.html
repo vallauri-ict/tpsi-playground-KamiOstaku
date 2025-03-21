@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria</title>
+    <!-- Aggiungi il link al CSS di Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Inizio della pagina -->
+    
+    <!-- Intestazione -->
+    <header class="bg-primary text-white py-4">
+        <div class="text-center container">
+            <h1>La nostra Pizzeria</h1>
+            <p>Le pizze più buone della città!</p>
+        </div>
+    </header>
+
+    <!-- Sezione menu con grid (senza card) -->
+    <section class="py-5 ">
+        <div class="container">
+            <h2 class="text-center mb-5">Il nostro Menu</h2>
+            <div class="row">
+                <!-- Pizza 1 -->
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light text-center">
+                        <img src="./img/margherita.jpg" class="img-fluid" alt="Pizza Margherita">
+                        <h5 class="">Pizza Margherita</h5>
+                        <p>Pomodoro, mozzarella, basilico e olio extravergine di oliva.</p>
+                        <p class="text-success">€8.00</p>
+                    </div>
+                </div>
+                <!-- Pizza 2 -->
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light text-center">
+                        <img src="./img/diavola.jpg" class="img-fluid" alt="Pizza Diavola">
+                        <h5 class="mt-3">Pizza Diavola</h5>
+                        <p>Pomodoro, mozzarella, salame piccante.</p>
+                        <p class="text-success">€9.00</p>
+                    </div>
+                </div>
+                <!-- Pizza 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="p-3 border bg-light text-center">
+                        <img src="./img/vegetariana.jpg" class="img-fluid" alt="Pizza Vegetariana">
+                        <h5 class="mt-3">Pizza Vegetariana</h5>
+                        <p>Pomodoro, mozzarella, verdure fresche di stagione.</p>
+                        <p class="text-success">€8.50</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Pizza 1 -->
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light text-center">
+                        <img src="./img/4stagioni.jpg" class="img-fluid" alt="Pizza 4 Stagioni">
+                        <h5 class="mt-3">Pizza 4 Stagioni</h5>
+                        <p>Pomodoro, mozzarella, prosciutto cotto, olive, carciofi, funghi e olio extravergine di oliva.</p>
+                        <p class="text-success">€9.00</p>
+                    </div>
+                </div>
+                <!-- Pizza 2 -->
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light text-center">
+                        <img src="./img/valdostana.jpg" class="img-fluid" alt="Pizza Valdostana">
+                        <h5 class="mt-3">Pizza Valdostana</h5>
+                        <p>Pomodoro, mozzarella, prosciutto, fontina e olio extravergine di oliva.</p>
+                        <p class="text-success">€9.00</p>
+                    </div>
+                </div>
+                <!-- Pizza 3 -->
+                <div class="col-md-4">
+                    <div class="p-3 border bg-light text-center">
+                        <img src="./img/burrata.jpg" class="img-fluid" alt="Pizza Burrata">
+                        <h5 class="mt-3">Pizza Burrata</h5>
+                        <p>Pomodoro, burrata D.O.P. e olio extravergine di oliva.</p>
+                        <p class="text-success">€9.50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-light py-5">
+        <div class="container text-center mx-auto">
+            <h2>contattaci</h2>
+            <p>Hai domande? Scrivici</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="">
+                            <label>Nome</label>
+                            <input type="text" placeholder="il tuo nome">
+                        </div>
+
+                        <div class="">
+                            <label>Email</label>
+                            <input type="text" placeholder="la tua email">
+                        </div>
+
+                        <button type="submit" class="">Invia</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center bg-primary">
+        <p>&copy; 2025 La nostra Pizzeria. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>

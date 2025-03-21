@@ -1,12 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "\\\\nas01\\AreaScambio\\_INF\\3-TERZE\\3B INF 2024-2025\\Informatica\\Visuale\\GetioneTabella3B\\",
+  "WorkspaceRootPath": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GetioneTabella3B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|\\\\nas01\\areascambio\\_inf\\3-terze\\3b inf 2024-2025\\informatica\\visuale\\getionetabella3b\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|c:\\users\\nikol\\desktop\\tpsi-playground-kamiostaku\\informatica\\visuale\\getionetabella3b\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|\\\\nas01\\AreaScambio\\_INF\\3-TERZE\\3B INF 2024-2025\\Informatica\\Visuale\\GetioneTabella3B\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|c:\\users\\nikol\\desktop\\tpsi-playground-kamiostaku\\informatica\\visuale\\getionetabella3b\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B2347468-46EF-4FBA-AAAA-25335CFC1162}|GetioneTabella3B.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frmMain.cs",
-              "DocumentMoniker": "\\\\nas01\\AreaScambio\\_INF\\3-TERZE\\3B INF 2024-2025\\Informatica\\Visuale\\GetioneTabella3B\\frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GetioneTabella3B\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "\\\\nas01\\AreaScambio\\_INF\\3-TERZE\\3B INF 2024-2025\\Informatica\\Visuale\\GetioneTabella3B\\frmMain.cs",
+              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GetioneTabella3B\\frmMain.cs",
               "RelativeToolTip": "frmMain.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwE8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:13:57.623Z",
+              "WhenOpened": "2025-03-11T11:01:12.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "frmMain.cs [Progettazione]",
-              "DocumentMoniker": "\\\\nas01\\AreaScambio\\_INF\\3-TERZE\\3B INF 2024-2025\\Informatica\\Visuale\\GetioneTabella3B\\frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GetioneTabella3B\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "C:\\Users\\alberto.barbero\\Desktop\\GetioneTabella3B\\frmMain.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\GetioneTabella3B\\frmMain.cs [Progettazione]",
+              "RelativeToolTip": "frmMain.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T10:11:39.121Z"
+              "WhenOpened": "2025-03-11T11:01:04.833Z",
+              "EditorCaption": " [Progettazione]"
             }
           ]
         }

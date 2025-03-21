@@ -1,0 +1,17 @@
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\bin\Debug\net9.0-windows\GestioneClientelaNegozio.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\bin\Debug\net9.0-windows\GestioneClientelaNegozio.deps.json
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\bin\Debug\net9.0-windows\GestioneClientelaNegozio.runtimeconfig.json
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\bin\Debug\net9.0-windows\GestioneClientelaNegozio.dll
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\bin\Debug\net9.0-windows\GestioneClientelaNegozio.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\GestioneClientelaNegozio.ClientManagement.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\GestioneClientelaNegozio.csproj.GenerateResource.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\GestioneClientelaNegozio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\GestioneClientelaNegozio.AssemblyInfoInputs.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\GestioneClientelaNegozio.AssemblyInfo.cs
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\GestioneClientelaNegozio.csproj.CoreCompileInputs.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\GestioneClientelaNegozio.sourcelink.json
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\GestioneClientelaNegozio.dll
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\refint\GestioneClientelaNegozio.dll
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\GestioneClientelaNegozio.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\GestioneClientelaNegozio.genruntimeconfig.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\GestioneClientelaNegozio\GestioneClientelaNegozio\obj\Debug\net9.0-windows\ref\GestioneClientelaNegozio.dll

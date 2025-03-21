@@ -1,0 +1,10 @@
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4 Dinamico\forza4 Dinamico\bin\Debug\forza4 Dinamico.exe.config
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4 Dinamico\forza4 Dinamico\bin\Debug\forza4 Dinamico.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4 Dinamico\forza4 Dinamico\bin\Debug\forza4 Dinamico.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4 Dinamico\forza4 Dinamico\obj\Debug\forza4 Dinamico.csproj.AssemblyReference.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4 Dinamico\forza4 Dinamico\obj\Debug\forza4_Dinamico.Properties.Resources.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4 Dinamico\forza4 Dinamico\obj\Debug\forza4 Dinamico.csproj.GenerateResource.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4 Dinamico\forza4 Dinamico\obj\Debug\forza4 Dinamico.csproj.CoreCompileInputs.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4 Dinamico\forza4 Dinamico\obj\Debug\forza4 Dinamico.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4 Dinamico\forza4 Dinamico\obj\Debug\forza4 Dinamico.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\forza4 Dinamico\forza4 Dinamico\obj\Debug\forza4_Dinamico.forza4Dinamico.resources

@@ -1,0 +1,10 @@
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.AssemblyReference.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.frmMain.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.Properties.Resources.resources
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.GenerateResource.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.csproj.CoreCompileInputs.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\Mediateca\Mediateca\bin\Debug\Mediateca.exe.config
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\Mediateca\Mediateca\bin\Debug\Mediateca.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\Mediateca\Mediateca\bin\Debug\Mediateca.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\Mediateca\Mediateca\obj\Debug\Mediateca.pdb
