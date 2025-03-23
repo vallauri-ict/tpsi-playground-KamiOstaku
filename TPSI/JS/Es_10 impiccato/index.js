@@ -10,6 +10,7 @@ const MAX_TENTATIVI=5;
 
 
 const secretWord = nomi[random(0,nomi.length-1)].toUpperCase();
+
 const secretWordDisplay = document.getElementById("txtParola");
 const image = document.getElementsByTagName("img")[0];
 const button = document.getElementsByTagName("button")[0];

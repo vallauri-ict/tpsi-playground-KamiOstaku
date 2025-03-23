@@ -19,6 +19,8 @@ namespace Campo_Minato
         protected Random rnd = new Random(); //The random is used to generate the random bomb positions
         Button btn; //Is used to make all the buttons
         int[,] gameMatrix; //Handles game logic
+        int winCount = 0;
+        int allCells = 0;
 
         public Form1()
         {
@@ -111,7 +113,8 @@ namespace Campo_Minato
                     gameMatrix[x, y] = 1;
                     nBombs++;
                 }
-            } while (nBombs < 40);
+            } while (nBombs < 90);
+            allCells = (gameMatrix.GetLength(0) * gameMatrix.GetLength(0)) - nBombs;
         }
 
         private void modalitaMedia(int nButton)
@@ -164,6 +167,7 @@ namespace Campo_Minato
                     nBombs++;
                 }
             } while (nBombs < 40);
+            allCells = (gameMatrix.GetLength(0) * gameMatrix.GetLength(0)) - nBombs;
         }
 
         private void modalitaFacile(int nButton)
@@ -215,6 +219,7 @@ namespace Campo_Minato
                     nBombs++;
                 }
             } while (nBombs < 10);
+            allCells = (gameMatrix.GetLength(0)* gameMatrix.GetLength(0)) - nBombs;
         }
 
         private void resetClick(object sender, EventArgs e)
@@ -227,6 +232,7 @@ namespace Campo_Minato
             this.StartPosition = FormStartPosition.Manual;
             this.Location = new Point(635,375);
             generateGame(DifficultyChoice.selectChoice());
+            winCount = 0;
         }
 
         private void controlloMina(object sender, EventArgs e)
@@ -254,11 +260,26 @@ namespace Campo_Minato
                 this.StartPosition = FormStartPosition.Manual;
                 this.Location = new Point(635, 375);
                 generateGame(DifficultyChoice.selectChoice());
+                winCount = 0;
             }
             else
             {
                 //It counts the bomb around the pressed buttons
                 btn.Text = checkAroundBombs(x, y).ToString();
+                winCount++;
+            }
+
+            if(winCount >= allCells)
+            {
+                MessageBox.Show("Hai vinto complimenti");
+
+                this.Controls.Clear();
+                this.InitializeComponent();
+                this.Text = "Campo Minato";
+                this.StartPosition = FormStartPosition.Manual;
+                this.Location = new Point(635, 375);
+                generateGame(DifficultyChoice.selectChoice());
+                winCount = 0;
             }
         }
 
@@ -275,7 +296,7 @@ namespace Campo_Minato
                 {
                     for (int j = x - 1; j < x+ 2; j++)
                     {
-                        if (j >= 0 && j < gameMatrix.GetLength(0) && x!=y)
+                        if (j >= 0 && j < gameMatrix.GetLength(0))
                         {
                             if(gameMatrix[i,j] == 1)
                             {
@@ -295,8 +316,6 @@ namespace Campo_Minato
         DifficultyChoice()
         {
             //Makes a form
-            this.AcceptButton = new System.Windows.Forms.Button();
-
             this.Width = 500;
             this.Width = 300;
         }
