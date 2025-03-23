@@ -1,0 +1,10 @@
+C:\Users\nikol\source\repos\Campo Minato\bin\Debug\Campo Minato.exe.config
+C:\Users\nikol\source\repos\Campo Minato\bin\Debug\Campo Minato.exe
+C:\Users\nikol\source\repos\Campo Minato\bin\Debug\Campo Minato.pdb
+C:\Users\nikol\source\repos\Campo Minato\obj\Debug\Campo Minato.csproj.AssemblyReference.cache
+C:\Users\nikol\source\repos\Campo Minato\obj\Debug\Campo_Minato.Form1.resources
+C:\Users\nikol\source\repos\Campo Minato\obj\Debug\Campo_Minato.Properties.Resources.resources
+C:\Users\nikol\source\repos\Campo Minato\obj\Debug\Campo Minato.csproj.GenerateResource.cache
+C:\Users\nikol\source\repos\Campo Minato\obj\Debug\Campo Minato.csproj.CoreCompileInputs.cache
+C:\Users\nikol\source\repos\Campo Minato\obj\Debug\Campo Minato.exe
+C:\Users\nikol\source\repos\Campo Minato\obj\Debug\Campo Minato.pdb

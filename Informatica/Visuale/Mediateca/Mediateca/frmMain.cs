@@ -17,8 +17,8 @@ namespace Mediateca
 
         public frmMain()
         {
-            InitializeComponent();
-            clsSoci.caricaSoci(dgvSoci);
+            InitializeComponent();            clsSoci.caricaSoci(dgvSoci);
+
             clsMedia.caricaMedia(dgvMedia);
             clsOperazioni.caricaOperazioni(dgvOperazioni);
         }

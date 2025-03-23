@@ -49,11 +49,9 @@ namespace Mediateca
 
         private static void caricaDati(DataGridView dgvSoci)
         {
-            dgvSoci.Rows.Clear();
-
             for (int i = 0; i < nSoci; i++) 
             {
-                if (i < nSoci - 1)
+                if (i != nSoci - 1)
                 {
                     dgvSoci.Rows.Add();
                 }
@@ -97,32 +95,35 @@ namespace Mediateca
         }
 
         internal static void AddSocio(DataGridView dgvSoci, string text1, string text2, string text3, string text4)
-        {   
+        {
+            dgvSoci.Rows.Add();
+            nSoci++;
             aggiornaStruct(text1,text2,text3,text4);
-            
+
             aggiornaDgv(dgvSoci);
+
+            
         }
 
         private static void aggiornaDgv(DataGridView dgvSoci)
         {
-            dgvSoci.Rows.Add();
+            // Add new row at the end
+            int lastRowIdx = dgvSoci.Rows.Count - 2;  // Get index of the last row
 
-            int x = dgvSoci.Rows.Count - 1;
-
-            dgvSoci.Rows[x].Cells[1].Value = soci[nSoci - 1].cognome;
-            dgvSoci.Rows[x].Cells[2].Value = soci[nSoci - 1].nome;
-            dgvSoci.Rows[x].Cells[3].Value = soci[nSoci - 1].email;
-            dgvSoci.Rows[x].Cells[4].Value = soci[nSoci - 1].telefono;
+            dgvSoci.Rows[lastRowIdx].Cells[0].Value = "s" + (nSoci); // Assign unique code
+            dgvSoci.Rows[lastRowIdx].Cells[1].Value = soci[nSoci -1].cognome;
+            dgvSoci.Rows[lastRowIdx].Cells[2].Value = soci[nSoci - 1].nome;
+            dgvSoci.Rows[lastRowIdx].Cells[3].Value = soci[nSoci - 1].email;
+            dgvSoci.Rows[lastRowIdx].Cells[4].Value = soci[nSoci - 1].telefono;
 
         }
 
         private static void aggiornaStruct(string text1, string text2, string text3, string text4)
         {
-            soci[nSoci].cognome = text1;
-            soci[nSoci].nome = text2;
-            soci[nSoci].email = text3;
-            soci[nSoci].telefono = text4;
-            nSoci++;
+            soci[nSoci - 1].cognome = text1;
+            soci[nSoci - 1].nome = text2;
+            soci[nSoci - 1].email = text3;
+            soci[nSoci - 1].telefono = text4;
         }
     }
 
