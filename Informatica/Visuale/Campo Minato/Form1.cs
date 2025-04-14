@@ -66,6 +66,22 @@ namespace Campo_Minato
             }
         }
 
+        private void generaMine(int max, int aX,int aY)
+        {
+            int nBombs = 0;
+            int y, x;
+            do
+            {
+                y = rnd.Next(0, gameMatrix.GetLength(0));
+                x = rnd.Next(0, gameMatrix.GetLength(0));
+                if (gameMatrix[x, y] != 1 && aY != y && aX != x)
+                {
+                    gameMatrix[x, y] = 1;
+                    nBombs++;
+                }
+            } while (nBombs < max);
+        }
+
         private void modalitaDifficile(int nButton)
         {
             this.Width = 965;
@@ -102,19 +118,9 @@ namespace Campo_Minato
 
             gameMatrix = new int[24, 24];
 
-            int nBombs = 0;
-            int y, x;
-            do
-            {
-                y = rnd.Next(0, gameMatrix.GetLength(0));
-                x = rnd.Next(0, gameMatrix.GetLength(0));
-                if (gameMatrix[x, y] != 1)
-                {
-                    gameMatrix[x, y] = 1;
-                    nBombs++;
-                }
-            } while (nBombs < 90);
-            allCells = (gameMatrix.GetLength(0) * gameMatrix.GetLength(0)) - nBombs;
+            //generaMine(90);
+
+            //allCells = (gameMatrix.GetLength(0) * gameMatrix.GetLength(0)) - nBombs;
         }
 
         private void modalitaMedia(int nButton)
@@ -155,19 +161,9 @@ namespace Campo_Minato
 
             gameMatrix = new int[16, 16];
 
-            int nBombs = 0;
-            int y, x;
-            do
-            {
-                y = rnd.Next(0, gameMatrix.GetLength(0));
-                x = rnd.Next(0, gameMatrix.GetLength(0));
-                if (gameMatrix[x, y] != 1)
-                {
-                    gameMatrix[x, y] = 1;
-                    nBombs++;
-                }
-            } while (nBombs < 40);
-            allCells = (gameMatrix.GetLength(0) * gameMatrix.GetLength(0)) - nBombs;
+            //generaMine(40);
+
+            //allCells = (gameMatrix.GetLength(0) * gameMatrix.GetLength(0)) - nBombs;
         }
 
         private void modalitaFacile(int nButton)
@@ -207,19 +203,7 @@ namespace Campo_Minato
 
             gameMatrix = new int[8,8];
 
-            int nBombs = 0;
-            int y,x;
-            do
-            {
-                y = rnd.Next(0, 8);
-                x = rnd.Next(0, 8);
-                if (gameMatrix[x,y] != 1)
-                {
-                    gameMatrix[x,y] = 1;
-                    nBombs++;
-                }
-            } while (nBombs < 10);
-            allCells = (gameMatrix.GetLength(0)* gameMatrix.GetLength(0)) - nBombs;
+            //generaMine(10);
         }
 
         private void resetClick(object sender, EventArgs e)
@@ -248,6 +232,13 @@ namespace Campo_Minato
             int x = int.Parse(position[0]);
             int y = int.Parse(position[1]);
 
+            if(gameMatrix[x, y] == 1 && winCount == 0 || winCount == 0)
+            {
+                int numeroMine = Convert.ToInt32(0.15625 * gameMatrix.GetLength(0)*gameMatrix.GetLength(1));
+                generaMine(numeroMine,x,y);
+                allCells = (gameMatrix.GetLength(0) * gameMatrix.GetLength(0)) - numeroMine;
+            }
+
             if (gameMatrix[x,y] == 1)
             {
                 //If the button is a bomb the game says you lose and resets
@@ -266,6 +257,7 @@ namespace Campo_Minato
             {
                 //It counts the bomb around the pressed buttons
                 btn.Text = checkAroundBombs(x, y).ToString();
+                btn.Click -= controlloMina;
                 winCount++;
             }
 
@@ -296,9 +288,9 @@ namespace Campo_Minato
                 {
                     for (int j = x - 1; j < x+ 2; j++)
                     {
-                        if (j >= 0 && j < gameMatrix.GetLength(0))
+                        if (j >= 0 && j < gameMatrix.GetLength(0) && (i != y || j != x))
                         {
-                            if(gameMatrix[i,j] == 1)
+                            if (gameMatrix[i, j] == 1)
                             {
                                 cont++;
                             }

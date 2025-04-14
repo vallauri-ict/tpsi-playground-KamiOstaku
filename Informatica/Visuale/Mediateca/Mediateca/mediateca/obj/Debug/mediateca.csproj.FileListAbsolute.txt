@@ -1,0 +1,11 @@
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\bin\Debug\mediateca.exe.config
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\bin\Debug\mediateca.exe
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\bin\Debug\mediateca.pdb
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\obj\Debug\mediateca.csproj.AssemblyReference.cache
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\obj\Debug\mediateca.csproj.SuggestedBindingRedirects.cache
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\obj\Debug\mediateca.FrmMain.resources
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\obj\Debug\mediateca.Properties.Resources.resources
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\obj\Debug\mediateca.csproj.GenerateResource.cache
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\obj\Debug\mediateca.csproj.CoreCompileInputs.cache
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\obj\Debug\mediateca.exe
+E:\INFO_3^B\Visuale\mediateca\mediateca\mediateca\obj\Debug\mediateca.pdb

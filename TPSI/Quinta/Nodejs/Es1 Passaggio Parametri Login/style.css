@@ -1,0 +1,52 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+html,body,.wrapper
+{
+    height: 100%;
+}
+
+.wrapper
+{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+
+form
+{
+    margin-top: 275px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 500px;
+    height: 250px;
+}
+
+label:nth-of-type(1)
+{
+    margin-left: 10px;
+}
+label:nth-of-type(2)
+{
+    margin-left: 10px;
+}
+label:nth-of-type(3)
+{
+    margin-left: 10px;
+}
+p
+{
+    margin-left: 10px;
+}
+label:nth-of-type(4)
+{
+    margin-left: 10px;
+}
+button
+{
+    margin-left: 10px;
+}

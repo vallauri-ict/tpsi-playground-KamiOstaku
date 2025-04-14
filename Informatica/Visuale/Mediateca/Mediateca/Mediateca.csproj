@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{98BF8266-EC0F-42CA-87D3-D9008751558C}</ProjectGuid>
+    <ProjectGuid>{D4F1CD80-3918-4E4C-868C-B896A1F78E73}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Mediateca</RootNamespace>
     <AssemblyName>Mediateca</AssemblyName>
@@ -46,9 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsSoci.cs" />
     <Compile Include="clsMedia.cs" />
     <Compile Include="clsOperazioni.cs" />
+    <Compile Include="clsSoci.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,0 +1,7 @@
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\DecaForme\DecaForme\bin\Debug\DecaForme.exe.config
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\DecaForme\DecaForme\bin\Debug\DecaForme.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\DecaForme\DecaForme\bin\Debug\DecaForme.pdb
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\DecaForme\DecaForme\obj\Debug\DecaForme.csproj.AssemblyReference.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\DecaForme\DecaForme\obj\Debug\DecaForme.csproj.CoreCompileInputs.cache
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\DecaForme\DecaForme\obj\Debug\DecaForme.exe
+C:\Users\nikol\Desktop\tpsi-playground-KamiOstaku\Informatica\Visuale\DecaForme\DecaForme\obj\Debug\DecaForme.pdb
