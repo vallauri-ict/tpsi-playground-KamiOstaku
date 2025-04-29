@@ -2,7 +2,7 @@
 
 ```
 
-----Git Commands----
+---Git Commands---
 
 git add . = Prepara tutti i file della cartella (in cui ti trovi) per la commit
 
