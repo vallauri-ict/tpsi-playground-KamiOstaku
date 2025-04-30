@@ -8,17 +8,33 @@ Queste azioni verranno scatenate da un evento a scelta dall'utente.
 ## ***2  Come pianificare un evento***
 ### ***2.1  l'utilità di pianificazione***
 Per aprire l'utilità di pianificazione ci sono due strade principali:.\
-    * item 1
+>[!NOTE] Had some problem with the previous commit and the text went lost. Will be fixed as soon as possible
 ### ***2.2  Come iniziare la creazione di un evento***
 Dopo aver aperto l'utilità di pianificazione dobbiamo guardare la colonna sulla destra nello schermo e premere sulla scritta `Crea Evento`.\
 
 > [!TIP]
->In caso di difficoltà nel trovare la foto consultare la foto sotto
+>In caso di difficoltà nel trovare la scritta consultare la foto sotto
 
-![image](img\img1.png)
+![image](./img/img1.png)
 
 ### ***2.3  Prima Pagina nella creazione***
-Dopo aver aperto l'utilità di pianificazione dobbiamo guardare la colonna sulla destra nello schermo e premere sulla scritta `Crea Evento`.\
----
+Una volta premuta la scritta `Crea Evento` apparirà questa finestra sul vostro schermo:.\
+![image](./img/img2.png).\
+Mi sembra oppurtuno a questo punto guidarvi nella navigazione in questa finestra:
 
-[!IMPORTANT] Sto Lavorando ancora alla realizzazione del di questi appunti
+* **Barra di navigazione a schede (Generale,Attivazione,Azioni,Condizioni,Impostazioni)**: permette all'utente di navigare le varie schede che hanno funzionalità per creare eventi specifici. Entrerò nei dettagli in un prossimo sotto capitolo
+
+* **Nome**: è il nome col quale potrai identificare l'evento che hai creato.
+
+* **Percorso**: è la sottocartella della cartella presente nella colonna a sinistra della prima immagine nel quale verrà salvato il tuo evento una volta creato.
+
+* **Autore**: indica l'utente che ha creato l'evento nel mio caso come si può notare dalla seconda immagine sarei io.
+
+* **Descrizione**: permette di dare una descrizione all'evento rendendolo,dunque,più comprensibile a chiunque si occuperà di modificarlo. Questa opzione è sopratutto utile in ambito aziendale piuttosto che in un ambito privato.
+
+* **Cambia utente o gruppo**: questo tasto ti permette di scegliere chi sarà a svolgere l'azione una volta che l'evento verrà scatenato.
+
+
+
+>[!IMPORTANT]
+> Sto Lavorando ancora alla realizzazione del di questi appunti
