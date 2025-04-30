@@ -7,10 +7,13 @@ Queste azioni verranno scatenate da un evento a scelta dall'utente.
 ---
 ## ***2  Come pianificare un evento***
 ### ***2.1  l'utilità di pianificazione***
+
 Per aprire l'utilità di pianificazione ci sono due strade principali:
-> [!NOTE] 
->
->Had some problems with the previous commit and this area of the work went lost. Will be fixed as soon as possible
+
+ * Premere il tasto windows sulla tastiera / premere il tasto start e cercare utilità di pianificazione o Task Scheduler
+
+ * Premere la combinazione di tasti `Win + R` e scrivere `taskschd.msc`
+
 ### ***2.2  Come iniziare la creazione di un evento***
 Dopo aver aperto l'utilità di pianificazione dobbiamo guardare la colonna sulla destra nello schermo e premere sulla scritta `Crea Evento`
 
@@ -44,7 +47,7 @@ Mi sembra oppurtuno a questo punto guidarvi nella navigazione in questa finestra
 
 * **Nascosta**: Nasconde l'evento
 
-### ***2.4  Gestione dell'attivazione dell'evento***
+### ***2.4  Seconda pagine e Gestione dell'attivazione dell'evento***
 Una volta configurata la scheda generale va configurata quella che gestisce l'attivazione dell'evento. Premendo su nuovo si paleserà la finestra della foto sottostante.
 
 ![image](./img/img3.png)
@@ -54,8 +57,19 @@ Una volta configurata la scheda generale va configurata quella che gestisce l'at
 
 Il resto sono impostazioni sul tempo ma mi sembrano abbastanza esplicative quindi le salterò.
 
-### ***2.4  Seconda Pagina nella creazione***
+### ***2.4  Terza Pagina nella creazione***
+Una volta aperta la terza pagina e aver scelto di creare una nuova azione vederete la finestra dell'immagine sotto.
 
+![image](./img/img4.png)
 
+* **Operazoione**: Scegli che tipo di operazione far svolgere all'evento
+    * **Avvio programma**: Ti permette di far partire uno script una volta scatenato l'evento
+        * **Aggiungi argomenti**: Ti permette di passare dei parametri attuali al codice che leggerà solo se accetta dei parametri
+    * **Altri punti**: Sono entrambi deprecati di conseguenza non starò ad approffondirli 
+### ***2.5  Quarta Pagina nella creazione***
+
+### ***2.6  Quinta Pagina nella creazione***
+
+## ***Conclusioni***
 >[!IMPORTANT]
 > Sto Lavorando ancora alla realizzazione di questi appunti
