@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\FileaTestolina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85EAFBC8-1710-4930-8707-BF412C70348C}|FileaTestolina\\FileaTestolina.csproj|c:\\users\\nikol\\desktop\\tpsi-playground-kamiostaku\\informatica\\visuale\\fileatestolina\\fileatestolina\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85EAFBC8-1710-4930-8707-BF412C70348C}|FileaTestolina\\FileaTestolina.csproj|solutionrelative:fileatestolina\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85EAFBC8-1710-4930-8707-BF412C70348C}|FileaTestolina\\FileaTestolina.csproj|c:\\users\\nikol\\desktop\\tpsi-playground-kamiostaku\\informatica\\visuale\\fileatestolina\\fileatestolina\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85EAFBC8-1710-4930-8707-BF412C70348C}|FileaTestolina\\FileaTestolina.csproj|solutionrelative:fileatestolina\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\FileaTestolina\\FileaTestolina\\Form1.cs",
+              "RelativeDocumentMoniker": "FileaTestolina\\Form1.cs",
+              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\FileaTestolina\\FileaTestolina\\Form1.cs",
+              "RelativeToolTip": "FileaTestolina\\Form1.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAG4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T06:35:30.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\FileaTestolina\\FileaTestolina\\Form1.cs",
+              "RelativeDocumentMoniker": "FileaTestolina\\Form1.cs",
+              "ToolTip": "C:\\Users\\nikol\\Desktop\\tpsi-playground-KamiOstaku\\Informatica\\Visuale\\FileaTestolina\\FileaTestolina\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "FileaTestolina\\Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T06:28:27.375Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
