@@ -1,8 +1,0 @@
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Quadrato magico\bin\Debug\ConsoleApp1.exe.config
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Quadrato magico\bin\Debug\ConsoleApp1.exe
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Quadrato magico\bin\Debug\ConsoleApp1.pdb
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Quadrato magico\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Quadrato magico\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Quadrato magico\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Quadrato magico\obj\Debug\ConsoleApp1.exe
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Quadrato magico\obj\Debug\ConsoleApp1.pdb

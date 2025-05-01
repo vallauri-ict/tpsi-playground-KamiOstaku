@@ -1,7 +1,0 @@
-C:\Users\nikol\OneDrive\Desktop\school\Informatica\Controllo Sotto Diagonale Principale\bin\Debug\Controllo Sotto Diagonale Principale.exe.config
-C:\Users\nikol\OneDrive\Desktop\school\Informatica\Controllo Sotto Diagonale Principale\bin\Debug\Controllo Sotto Diagonale Principale.exe
-C:\Users\nikol\OneDrive\Desktop\school\Informatica\Controllo Sotto Diagonale Principale\bin\Debug\Controllo Sotto Diagonale Principale.pdb
-C:\Users\nikol\OneDrive\Desktop\school\Informatica\Controllo Sotto Diagonale Principale\obj\Debug\Controllo Sotto Diagonale Principale.csproj.AssemblyReference.cache
-C:\Users\nikol\OneDrive\Desktop\school\Informatica\Controllo Sotto Diagonale Principale\obj\Debug\Controllo Sotto Diagonale Principale.csproj.CoreCompileInputs.cache
-C:\Users\nikol\OneDrive\Desktop\school\Informatica\Controllo Sotto Diagonale Principale\obj\Debug\Controllo Sotto Diagonale Principale.exe
-C:\Users\nikol\OneDrive\Desktop\school\Informatica\Controllo Sotto Diagonale Principale\obj\Debug\Controllo Sotto Diagonale Principale.pdb

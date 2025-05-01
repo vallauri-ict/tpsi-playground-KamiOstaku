@@ -1,8 +1,0 @@
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Ricorsione\obj\Debug\Ricorsione.csproj.AssemblyReference.cache
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Ricorsione\obj\Debug\Ricorsione.csproj.SuggestedBindingRedirects.cache
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Ricorsione\obj\Debug\Ricorsione.csproj.CoreCompileInputs.cache
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Ricorsione\bin\Debug\Ricorsione.exe.config
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Ricorsione\bin\Debug\Ricorsione.exe
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Ricorsione\bin\Debug\Ricorsione.pdb
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Ricorsione\obj\Debug\Ricorsione.exe
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Ricorsione\obj\Debug\Ricorsione.pdb

@@ -1,6 +1,0 @@
-C:\Users\alberto.barbero\Desktop\gestioneMatrice3B\bin\Debug\gestioneMatrice3B.exe.config
-C:\Users\alberto.barbero\Desktop\gestioneMatrice3B\bin\Debug\gestioneMatrice3B.exe
-C:\Users\alberto.barbero\Desktop\gestioneMatrice3B\bin\Debug\gestioneMatrice3B.pdb
-C:\Users\alberto.barbero\Desktop\gestioneMatrice3B\obj\Debug\gestioneMatrice3B.exe
-C:\Users\alberto.barbero\Desktop\gestioneMatrice3B\obj\Debug\gestioneMatrice3B.pdb
-C:\Users\alberto.barbero\Desktop\gestioneMatrice3B\obj\Debug\gestioneMatrice3B.csprojAssemblyReference.cache

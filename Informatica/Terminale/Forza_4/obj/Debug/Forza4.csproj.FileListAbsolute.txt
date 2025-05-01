@@ -1,7 +1,0 @@
-C:\Users\nikol\source\repos\Forza4\bin\Debug\Forza4.exe.config
-C:\Users\nikol\source\repos\Forza4\bin\Debug\Forza4.exe
-C:\Users\nikol\source\repos\Forza4\bin\Debug\Forza4.pdb
-C:\Users\nikol\source\repos\Forza4\obj\Debug\Forza4.csproj.AssemblyReference.cache
-C:\Users\nikol\source\repos\Forza4\obj\Debug\Forza4.csproj.CoreCompileInputs.cache
-C:\Users\nikol\source\repos\Forza4\obj\Debug\Forza4.exe
-C:\Users\nikol\source\repos\Forza4\obj\Debug\Forza4.pdb

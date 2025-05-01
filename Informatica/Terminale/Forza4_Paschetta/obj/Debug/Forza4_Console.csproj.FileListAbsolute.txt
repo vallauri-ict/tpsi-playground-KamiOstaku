@@ -1,8 +1,0 @@
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Forza4_Paschetta\obj\Debug\Forza4_Console.csproj.AssemblyReference.cache
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Forza4_Paschetta\obj\Debug\Forza4_Console.csproj.SuggestedBindingRedirects.cache
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Forza4_Paschetta\obj\Debug\Forza4_Console.csproj.CoreCompileInputs.cache
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Forza4_Paschetta\bin\Debug\Forza4_Console.exe.config
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Forza4_Paschetta\bin\Debug\Forza4_Console.exe
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Forza4_Paschetta\bin\Debug\Forza4_Console.pdb
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Forza4_Paschetta\obj\Debug\Forza4_Console.exe
-C:\Users\n.milojkov.3572\Desktop\tpsi-playground-KamiOstaku\Informatica\Forza4_Paschetta\obj\Debug\Forza4_Console.pdb
