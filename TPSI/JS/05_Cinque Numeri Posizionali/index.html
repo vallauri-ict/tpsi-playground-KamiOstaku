@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"/>
+        <script defer type="application/javascript" src="index.js"></script>
+        <title>5 numeri segreti</title>
+    </head>
+    
+    <body>
+        <div id="wrapper">
+			<h1>Indovina la posizione dei 5 numeri</h1>
+            <input type="text" name="txtNum" maxlength="1" autocomplete="off" onkeydown="controlla(event)"/>
+            <input type="text" name="txtNum" maxlength="1" autocomplete="off" onkeydown="controlla(event)"/>
+            <input type="text" name="txtNum" maxlength="1" autocomplete="off" onkeydown="controlla(event)"/>
+            <input type="text" name="txtNum" maxlength="1" autocomplete="off" onkeydown="controlla(event)"/>
+            <input type="text" name="txtNum" maxlength="1" autocomplete="off" onkeydown="controlla(event)"/>
+            <br />
+            <input type="checkbox" autocomplete="off" name="chkNum" disabled />
+            <input type="checkbox" autocomplete="off" name="chkNum" disabled />
+            <input type="checkbox" autocomplete="off" name="chkNum" disabled />
+            <input type="checkbox" autocomplete="off" name="chkNum" disabled />
+            <input type="checkbox" autocomplete="off" name="chkNum" disabled />
+            <br />
+            <input type="button" id="btnInvia" onclick="confrontaNumeri()" value="Invia" />
+        </div>
+    </body>
+</html>

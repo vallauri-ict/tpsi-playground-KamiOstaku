@@ -1,0 +1,53 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Impariamo il codice ASCII </title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer type="application/javascript" src="./index.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h2 align="center"> Impariamo il codice ASCII</h2>
+        <hr>
+        <div> 
+		    <select id="lstVoci" onChange="genera()">
+			   <option value="65-90">lettere MAIUSCOLE</option>
+			   <option value="97-122">lettere minuscole</option>
+			   <option value="48-57">numeri</option>
+			</select>
+        </div>
+        <div id="divNum"> 
+		    <p> valori generati casualmente : </p>
+            <input type="text" class="txtNum" readonly />
+            <input type="text" class="txtNum" readonly />
+            <input type="text" class="txtNum" readonly />
+            <input type="text" class="txtNum" readonly />
+            <input type="text" class="txtNum" readonly />
+            <input type="text" class="txtNum" readonly />
+        </div>
+		<br>
+        <div id="divAscii"> 
+		    <p> inserisci il carattere ascii corrispondente : </p>
+            <input type="text" class="txtStr" maxlength="1" oninput="abilita()" />
+            <input type="text" class="txtStr" maxlength="1" oninput="abilita()" />
+            <input type="text" class="txtStr" maxlength="1" oninput="abilita()" />
+            <input type="text" class="txtStr" maxlength="1" oninput="abilita()" />
+            <input type="text" class="txtStr" maxlength="1" oninput="abilita()" />
+            <input type="text" class="txtStr" maxlength="1" oninput="abilita()" />
+        </div>
+        <div id="chkRis"> 
+	        <input type="checkbox" name="chk" disabled>
+	        <input type="checkbox" name="chk" disabled>
+	        <input type="checkbox" name="chk" disabled>
+	        <input type="checkbox" name="chk" disabled>
+	        <input type="checkbox" name="chk" disabled>
+	        <input type="checkbox" name="chk" disabled>
+        </div>
+		<br>
+        <div> 
+	        <input type="button" value="controlla" id="btnControlla" onclick="controlla()"/>
+        </div>
+</div>
+</body>
+</html>
