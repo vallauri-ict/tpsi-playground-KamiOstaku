@@ -7,6 +7,7 @@ const GREY = "rgb(127, 127, 127)";
 const YELLOW = "rgb(255, 255, 0)";
 const RED = "rgb(255, 0, 0)";
 
+<<<<<<< HEAD
 const wrapper = document.getElementById("wrapper");
 const nextPlayer = document.getElementById("nextPlayer");
 nextPlayer.classList.add("pedina");
@@ -65,4 +66,11 @@ function controlloVincita(row,col)
             if(current == nex1 && nex1 == nex2 && nex2 == nex3)
         }
     }
+=======
+
+window.onload=function(){
+
+ 
+
+>>>>>>> b212a1ee77f869da5c768d83eb18842139192ab7
 }
