@@ -1,0 +1,51 @@
+ 
+h1{
+	font-size:36pt;
+	text-align:center;
+}
+ 
+
+html{
+	height:100%;	
+}
+
+body{
+	height:100%;
+    background-color:rgb(250, 248, 239);
+	font-family:"Verdana";
+	overflow-y: hidden;
+} 
+
+#wrapper{
+    width:360px;
+    margin: 0 auto;
+	padding:10px;
+	background-color:rgb(187, 173, 160);
+}
+
+.cella {
+	width:70px;
+	height: 70px;
+	line-height:70px;
+	display:inline-block;
+	font-size:30pt;
+	font-weight:bold;
+	text-align:center;
+	padding:0;
+	margin:10px 10px;
+	vertical-align:middle;
+	background-color:rgb(238, 228, 218);
+	color:rgb(119, 110, 101);
+}
+
+#punti{
+	width:360px;
+    margin: 12px auto;
+	text-align:center;
+	font-size:16pt;
+}
+
+#punti span{
+	font-size:20pt;
+	font-weight:bold;
+}
