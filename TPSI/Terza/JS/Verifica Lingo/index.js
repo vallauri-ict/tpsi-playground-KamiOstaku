@@ -4,7 +4,7 @@ const DIM = 5;
 const parole = ["Barca", "Fiore", "Gente", "Fuoco", "Fungo", "Opaco", "Prova", "Sasso", "Scusa", "Torta", "Vespa"];
 const wrapper = document.getElementById("wrapper");
 const textBox = document.getElementsByTagName("input")[0];
-let parolaSegreta;
+let parolaSegreta = "FIORE";
 let rigaCorrente = 0;
 
 //Creazione della griglia di gioco
@@ -18,7 +18,7 @@ for (let i = 0; i < DIM; i++) {
 }
 
 //Generazione parola da indovinare
-parolaSegreta = parole[generaNumero(0, parole.length)].toLocaleUpperCase();
+//parolaSegreta = parole[generaNumero(0, parole.length)].toLocaleUpperCase();
 
 //Posizionamento nella prima posizione della lettera iniziale della parola segreta
 document.getElementById("div-0-0").innerText = parolaSegreta[0];
@@ -65,7 +65,7 @@ function controlloInvio() {
         return;
     }
 
-    let aux = ""; //Variabile di appoggio per controllare che non vengano contati doppioni
+    let aux = parolaSegreta; //Variabile di appoggio per controllare che non vengano contati doppioni
     for (let i = 0; i < DIM; i++) {
         //Controllo carattere per carattere per vedere quali son corretti
         if (textBox.value[i] == parolaSegreta[i]) {
@@ -73,15 +73,15 @@ function controlloInvio() {
 
             div.style.backgroundColor = "greenYellow";
             div.innerHTML = textBox.value[i];
+            aux = aux.replace(textBox.value[i],"*");
         }
         //Se uno di essi non è corretto controllo se è presente nella parola segreta
-        else if (parolaSegreta.includes(textBox.value[i]) && !aux.includes(textBox.value[i])) {
+        else if (aux.includes(textBox.value[i])) {
             let div = document.getElementById(`div-${rigaCorrente}-${i}`);
 
             div.style.backgroundColor = "yellow";
             div.innerText = textBox.value[i];
-
-            aux += textBox.value[i];
+            aux = aux.replace(textBox.value[i],"*");
         }
     }
 
