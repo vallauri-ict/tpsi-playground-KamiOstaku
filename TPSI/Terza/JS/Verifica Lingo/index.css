@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+h1{
+	text-align:center;
+	margin:20px;
+	font-size: 30pt;
+}
+
+#wrapper{
+    width:440px;
+    height:440px;
+    margin:15px auto;
+    border:0px solid red;
+}
+
+.cella{
+    width:80px;
+    height:80px;
+    margin:3px;
+    padding:0;
+    border:1px solid black;
+    font-size:30pt;
+    font-weight:bold;
+    text-align:center;
+
+    line-height:80px;
+
+    display:inline-block;
+    vertical-align:middle;
+    border-radius: 10px;
+    background-color: lightskyblue;
+}
+
+
+input{
+    width:432px;
+    height: 30px;
+    font-size: 20pt;
+	display:block;
+	margin:10px auto;
+}
+
+
