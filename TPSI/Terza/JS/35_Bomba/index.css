@@ -1,0 +1,20 @@
+h1{
+	text-align:center;
+}
+
+#wrapper{
+	width:380px;
+	height:380px;
+	margin:15px auto;
+	border:1px solid #ddd;
+}
+
+
+
+.cella{
+	width:36px;
+	height:36px;
+	display:inline-block;
+	margin:0px 1px;
+	background-color: rgb(127, 127, 127);
+}

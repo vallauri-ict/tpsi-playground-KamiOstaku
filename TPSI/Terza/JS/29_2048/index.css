@@ -13,7 +13,6 @@ body{
 	height:100%;
     background-color:rgb(250, 248, 239);
 	font-family:"Verdana";
-	overflow-y: hidden;
 } 
 
 #wrapper{

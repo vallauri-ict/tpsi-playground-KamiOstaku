@@ -1,0 +1,42 @@
+
+* {
+	padding:0;
+	margin:0;
+}
+
+h1{
+   text-align:center;
+   margin:15px;
+   font-size:22pt;
+   font-weight:bold;
+}
+
+#wrapper{
+	width: 665px;
+	height:665px;
+	margin:20px auto;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.cella{
+	width : 20px;
+	height : 20px;
+	background-color : grey;
+	color : blue;
+	margin:1px;
+}
+
+#pulsanti table{
+	margin: 15px auto;
+}
+
+#pulsanti input[type=button], #pulsanti span{
+	width:80px;
+	height:40px;
+	display:inline-block;
+	text-align:center;
+	line-height:40px;
+	margin-left:10px;	
+	font-size:18pt;
+}

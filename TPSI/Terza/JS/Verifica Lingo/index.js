@@ -4,7 +4,7 @@ const DIM = 5;
 const parole = ["Barca", "Fiore", "Gente", "Fuoco", "Fungo", "Opaco", "Prova", "Sasso", "Scusa", "Torta", "Vespa"];
 const wrapper = document.getElementById("wrapper");
 const textBox = document.getElementsByTagName("input")[0];
-let parolaSegreta = "FIORE";
+let parolaSegreta;
 let rigaCorrente = 0;
 
 //Creazione della griglia di gioco
@@ -18,7 +18,7 @@ for (let i = 0; i < DIM; i++) {
 }
 
 //Generazione parola da indovinare
-//parolaSegreta = parole[generaNumero(0, parole.length)].toLocaleUpperCase();
+parolaSegreta = parole[generaNumero(0, parole.length)].toLocaleUpperCase();
 
 //Posizionamento nella prima posizione della lettera iniziale della parola segreta
 document.getElementById("div-0-0").innerText = parolaSegreta[0];

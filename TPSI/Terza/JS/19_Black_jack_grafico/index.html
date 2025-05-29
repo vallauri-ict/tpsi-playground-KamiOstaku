@@ -1,33 +1,26 @@
 <html>
 <head>
     <meta charset="UTF-8">
-	<title> Black Jack </title>
-	<link rel="stylesheet" href="index.css"/>
-	<script defer type="text/javascript" src="index.js"> </script>
+    <title>Black Jack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <script defer type="text/javascript" src="index.js"></script>
 </head>
 
-<body>
-  
-    <h1> Black Jack</h1>
-	<div id="wrapper">   		
-		<div> 
-			<p> Giocatore :  <span> 0 </span> </p>
-			<div class="card"> </div>
-			<div class="card"> </div>
-			<div class="msgAsso"> 
-			   <input type="checkbox" autocomplete="off"> Assegna 11 punti all'asso
-			</div> 
-		</div>
-		
-		<div> 
-			<p> Banco : <span> 0 </span> </p>
-			<div class="card"> </div>
-			<div class="card"> </div>
-			<div class="msgAsso"> 
-			   <input type="checkbox" autocomplete="off"> Assegna 11 punti all'asso
-			</div> 			
-		</div>
-		
-	</div>
+<body class="bg-dark text-light">
+    <div class="container text-center py-5">
+        <h1 class="display-4 mb-4">Black Jack</h1>
+        
+        <!-- Textbox per inserire il nome del giocatore -->
+        <div class="mb-4">
+            <input type="text" id="playerName" class="form-control w-50 mx-auto" placeholder="Inserisci il nome del giocatore">
+            <button id="addPlayer" class="btn btn-primary mt-2">Aggiungi Giocatore</button>
+        </div>
+
+        <div id="wrapper" class="row justify-content-center">
+            <!-- Giocatori dinamici verranno aggiunti qui -->
+        </div>
+    </div>
 </body>
 </html>

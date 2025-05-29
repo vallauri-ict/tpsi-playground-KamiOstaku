@@ -15,15 +15,41 @@ window.onload = function () {
     let _chkG = _assoG.children[0];
     let _chkB = _assoB.children[0];
 
-    // Array per tenere traccia delle carte già pescate
-    let carteUscite = [];
-    
+    let wrapper = document.getElementById("wrapper");
+    let addPlayerButton = document.getElementById("addPlayer");
+    let playerNameInput = document.getElementById("playerName");
+
+    let players = []; // Array per tenere traccia dei giocatori
+    let carteUscite = []; // Carte già pescate
+
     // Punteggi
     let punteggioG = 0;
     let punteggioB = 0;
 
     // Inizializzazione
     inizializzaGioco();
+
+    addPlayerButton.addEventListener("click", function () {
+        let playerName = playerNameInput.value.trim();
+        if (playerName === "") {
+            alert("Inserisci un nome valido!");
+            return;
+        }
+
+        // Crea un nuovo giocatore
+        let player = {
+            name: playerName,
+            score: 0,
+            element: createPlayerElement(playerName),
+        };
+        players.push(player);
+
+        // Aggiungi il giocatore al wrapper
+        wrapper.appendChild(player.element);
+
+        // Resetta il campo di input
+        playerNameInput.value = "";
+    });
 
     function inizializzaGioco() {
         // Nascondi checkbox assi
@@ -49,6 +75,60 @@ window.onload = function () {
         _btnB.addEventListener("click", bancoGioca);
     }
 
+    function createPlayerElement(name) {
+        // Crea il contenitore del giocatore
+        let playerDiv = document.createElement("div");
+        playerDiv.className = "col-md-5 text-center";
+
+        // Nome e punteggio
+        playerDiv.innerHTML = `
+            <p class="fs-4">${name}: <span>0</span></p>
+            <div class="d-flex justify-content-center">
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+            <div class="msgAsso mt-3">
+                <input type="checkbox" autocomplete="off"> Assegna 11 punti all'asso
+            </div>
+        `;
+
+        // Eventi per le carte
+        let cards = playerDiv.querySelectorAll(".card");
+        let scoreSpan = playerDiv.querySelector("span");
+        let assoCheckbox = playerDiv.querySelector("input[type='checkbox']");
+
+        cards.forEach((card, index) => {
+            card.addEventListener("click", function () {
+                let carta = generaCarta();
+                mostraCarta(card, carta);
+
+                let valore = parseInt(carta.substr(1));
+                if (valore > 10) valore = 10;
+
+                if (valore === 1) {
+                    assoCheckbox.style.visibility = "visible";
+                    assoCheckbox.onchange = function () {
+                        if (this.checked) {
+                            player.score += 10;
+                            scoreSpan.textContent = player.score;
+                            assoCheckbox.style.visibility = "hidden";
+                        }
+                    };
+                }
+
+                player.score += valore;
+                scoreSpan.textContent = player.score;
+
+                if (player.score > 21) {
+                    alert(`${name} ha perso!`);
+                    disablePlayer(playerDiv);
+                }
+            });
+        });
+
+        return playerDiv;
+    }
+
     function generaCarta() {
         let carta;
         do {
@@ -56,9 +136,18 @@ window.onload = function () {
             let seme = String.fromCharCode(Math.floor(Math.random() * 4) + 97); // a-d
             carta = seme + numero;
         } while (carteUscite.includes(carta));
-        
+
         carteUscite.push(carta);
         return carta;
+    }
+
+    function mostraCarta(elemento, carta) {
+        elemento.style.transition = "transform 0.5s";
+        elemento.style.transform = "rotateY(90deg)";
+        setTimeout(() => {
+            elemento.style.backgroundImage = `url('img/${carta}.gif')`;
+            elemento.style.transform = "rotateY(0deg)";
+        }, 250);
     }
 
     function giocatoreGioca() {
@@ -67,7 +156,7 @@ window.onload = function () {
         _chkG.checked = false;
         
         let carta = generaCarta();
-        _cartaG.style.backgroundImage = `url('img/${carta}.gif')`;
+        mostraCarta(_cartaG, carta);
         
         let valore = parseInt(carta.substr(1));
         if (valore > 10) valore = 10;
@@ -101,7 +190,7 @@ window.onload = function () {
         _chkB.checked = false;
         
         let carta = generaCarta();
-        _cartaB.style.backgroundImage = `url('img/${carta}.gif')`;
+        mostraCarta(_cartaB, carta);
         
         let valore = parseInt(carta.substr(1));
         if (valore > 10) valore = 10;
@@ -123,6 +212,13 @@ window.onload = function () {
             alert("Parità!");
             rimuoviEventi();
         }
+    }
+
+    function disablePlayer(playerDiv) {
+        let cards = playerDiv.querySelectorAll(".card");
+        cards.forEach((card) => {
+            card.style.pointerEvents = "none";
+        });
     }
 
     function rimuoviEventi() {
